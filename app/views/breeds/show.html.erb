@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @breed.name %>
+</p>
+
+<p>
+  <strong>Species:</strong>
+  <%= @breed.species %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @breed.status %>
+</p>
+
+<%= link_to 'Edit', edit_breed_path(@breed) %> |
+<%= link_to 'Back', breeds_path %>

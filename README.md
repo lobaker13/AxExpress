@@ -66,7 +66,9 @@ devise_for :users, controllers: {
 
 ```
 rails g scaffold category name:string core:integer procedure_id
-rails g scaffold procedure name:string category_id:integer category:belongs_to   
+rails g scaffold procedure name:string category_id:integer category:belongs_to
+rails g scaffold breed name:string species:integer status:integer  
+ 
 
 ----------------------------------------------------------------------------------------------------------------------------------
                                               DICTIONARY/SHORTHAND
