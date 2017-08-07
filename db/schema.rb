@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170807150232) do
+ActiveRecord::Schema.define(version: 20170807184745) do
 
   create_table "breeds", force: :cascade do |t|
     t.string "name"
@@ -35,10 +35,20 @@ ActiveRecord::Schema.define(version: 20170807150232) do
     t.string "category"
     t.decimal "concentration"
     t.text "adverse"
-    t.integer "route_of_admin"
+    # add "_value" for the attr_bitwise gem
+    t.integer "route_of_admin_value"
     t.string "pronunciation"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "patient_procedures", force: :cascade do |t|
+    t.integer "procedure_id"
+    t.integer "patient_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["patient_id"], name: "index_patient_procedures_on_patient_id"
+    t.index ["procedure_id"], name: "index_patient_procedures_on_procedure_id"
   end
 
   create_table "patients", force: :cascade do |t|
@@ -61,6 +71,45 @@ ActiveRecord::Schema.define(version: 20170807150232) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["category_id"], name: "index_procedures_on_category_id"
+  end
+
+  create_table "protocol_drugs", force: :cascade do |t|
+    t.decimal "dose"
+    t.integer "additional_analgesic"
+    t.integer "drug_id"
+    t.integer "protocol_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["drug_id"], name: "index_protocol_drugs_on_drug_id"
+    t.index ["protocol_id"], name: "index_protocol_drugs_on_protocol_id"
+  end
+
+  create_table "protocols", force: :cascade do |t|
+    t.decimal "weight"
+    t.integer "age"
+    t.integer "asa"
+    t.integer "bsc"
+    t.text "alert"
+    t.integer "patient_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["patient_id"], name: "index_protocols_on_patient_id"
+  end
+
+  create_table "risks", force: :cascade do |t|
+    t.integer "asa"
+    t.string "temperament"
+    t.integer "bcs"
+    t.string "breed"
+    t.string "comorbidities"
+    t.integer "age"
+    t.integer "heart_murmur"
+    t.string "procedure"
+    t.boolean "history"
+    t.integer "patient_procedure_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["patient_procedure_id"], name: "index_risks_on_patient_procedure_id"
   end
 
   create_table "users", force: :cascade do |t|

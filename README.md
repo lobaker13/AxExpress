@@ -76,11 +76,11 @@ rails g scaffold patient fname:string lname:string dob:date sex:integer weight:d
 
 rails g scaffold drug name:string commercial_name:string klass:string category:string concentration:decimal adverse:text route_of_admin:integer pronunciation:string  
 
-rails g scaffold protocol weight:decimal age:integer asa:integer bsc:integer alert:text patient:belongs to
+rails g scaffold protocol weight:decimal age:integer asa:integer bsc:integer alert:text patient:belongs_to
 
 rails g scaffold risk asa:integer temperament:string bcs:integer breed:string comorbidities:string age:integer heart_murmur:integer procedure:string history:boolean patient_procedure:belongs_to
 
-rails g scaffold patient_procedure procedure:belongs_to patient:belongs_to 
+rails g scaffold patient_procedure procedure:belongs_to patient:belongs_to
 
 rails g scaffold protocol_drug dose:decimal additional_analgesic:integer drug:belongs_to protocol:belongs_to
  ```

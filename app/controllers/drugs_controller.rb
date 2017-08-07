@@ -1,10 +1,11 @@
 class DrugsController < ApplicationController
-  before_action :set_drug, only: [:show, :edit, :update, :destroy]
+  before_action :set_drug, only: [:show, :edit, :update, :destroy, :search]
 
   # GET /drugs
   # GET /drugs.json
   def index
-    @drugs = Drug.all
+    # @drugs = Drug.all
+    @drugs = Drug.search(params[:search]).all
   end
 
   # GET /drugs/1
@@ -49,7 +50,6 @@ class DrugsController < ApplicationController
         format.json { render json: @drug.errors, status: :unprocessable_entity }
       end
     end
-  end
 
   # DELETE /drugs/1
   # DELETE /drugs/1.json
@@ -71,4 +71,5 @@ class DrugsController < ApplicationController
     def drug_params
       params.require(:drug).permit(:name, :commercial_name, :class, :category, :concentration, :adverse, :route_of_admin, :pronunciation)
     end
+  end
 end

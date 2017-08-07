@@ -2615,2135 +2615,2148 @@ Procedure.create([
 ])
 
 Drug.create([
+# 	{
+# 		name: "Acarbose", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
 	{
-		name: "Acarbose", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{name: "Acepromazine Maleate", commercial_name: "" , klass: "Phenothiazine Sedative/Tranquilizer", category: "Systemic Drug", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: "(ase-pro-ma-zeen)"
-	},
-	{
-		name: "Acetaminophen", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Acetazolamide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Acetic Acid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Acetic Acid/Boric Acid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Acetohydroxamic Acid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Acetylcysteine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{name: "Acetylcysteine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Acitretin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Acyclovir", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Acyclovir Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Afoxolaner", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Aglepristone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Albendazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Albumin, Human", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Albuterol Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Alcaftadine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Alendronate Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Alfaxalone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Alfentanil HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Allopurinol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Alprazolam", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Altrenogest", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{name: "Aluminum Acetate Solution (Burow’s Solution)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Aluminum Hydroxide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Amantadine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{name: "Amikacin Sulfate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{name: "Amikacin Sulfate, Systemic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Aminocaproic Acid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{name: "Aminocaproic Acid Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{name: "Aminopentamide Hydrogen Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Aminophylline", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Amiodarone HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{name: "Amitraz & Amitraz Combinations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Amitriptyline HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Amlodipine Besylate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Ammonium Chloride", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Ammonium Molybdate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Amoxicillin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{name: "Amoxicillin/Clavulanate Potassium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Amphotericin B", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{name: "Amphotericin B Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Ampicillin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{name: "Ampicillin Sodium + Sulbactam Sodium", commercial_name: "", klass: "
-		 ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	 },
-	{
-		name: "Amprolium HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Antibacterials", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{name: "Antibiotic Potentiating Agents", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Antifungals", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{name: "Antiparasitic Preparations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Antiseptic Agents", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{name: "Antivenin (Crotalidae) Polyvalent (Equine Origin)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{name: "Antivenin (Latrodectus mactans) Black Widow Spider", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{name: "Antivenin (Micrurus fulvius) Eastern and Texas Coral Snake", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Apomorphine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{name: "Apraclonidine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Apramycin Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{name: "Artificial Tears/Ocular Lubricants", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{name: "Ascorbic Acid (Vitamin C)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Asparaginase", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Aspirin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Atenolol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Atipamezole HCl", commercial_name:"", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Atovaquone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Atracurium Besylate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{name: "Atropine Sulfate", commercial_name: "", klass: "Anticholinergic", category: "Systemic Drug", concentration: nil, adverse: "", route_of_admin: nil,  pronunciation: "(ah-troe-peen suhl-fate)"
-	},
-	{name: "Atropine Sulfate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Auranofin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Azaperone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Azathioprine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Azelastine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Azithromycin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{name: "Azithromycin Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-	{
-		name: "Aztreonam", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Bacitracin Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Bacitracin, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Baclofen", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Benazepril HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Benoxinate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Benzonatate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Benzoyl Peroxide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Bepotastine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Besifloxacin Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Betamethasone (Systemic)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Betamethasone Dipropionate, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Betamethasone Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Betaxolol Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Bethanechol Chloride", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Bimatoprost Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Bisacodyl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Bismuth Subsalicylate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Bleomycin Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Boldenone Undecylenate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Brimonidine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Brinzolamide Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Bromfenac Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Bromides", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Bromocriptine Mesylate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Budesonide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Bumetanide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Bupivacaine Liposome", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Buprenorphine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Buspirone HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Busulfan", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Butaphosphan with Cyanocobalamin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Butorphanol Tartrate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cabergoline", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Calcitonin Salmon", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Calcitriol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Calcium (Borogluconate, Chloride, Gluconate), Injectable", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Calcium Acetate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Calcium Carbonate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Candesartan Cilexetil", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Captopril", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Carbamazepine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Carbimazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Carboplatin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Carnitine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Carprofen", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Carteolol Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Carvedilol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Caspofungin Acetate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cefaclor", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cefadroxil", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cefazolin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cefepime HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cefixime", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cefotaxime Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cefotetan Disodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cefovecin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cefoxitin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cefpodoxime Proxetil", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ceftazidime", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Ceftiofur Crystalline Free Acid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ceftiofur HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ceftiofur Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ceftriaxone Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cefuroxime Axetil", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cephalexin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cephapirin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ceruminolytic Agents", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cetirizine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Charcoal, Activated", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Chlorambucil", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Chloramphenicol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Chloramphenicol Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Chlordiazepoxide ± Clidinium Br", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Chlorhexidine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Chlorothiazide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Chloroxylenol (PCMX)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Chlorpheniramine Maleate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Chlorpromazine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Chlorpropamide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Chlortetracycline", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Chorionic Gonadotropin (HCG)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Chromium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cidofovir Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cimetidine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ciprofloxacin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Ciprofloxacin Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cisapride", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cisplatin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Citrate, Potassium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Clarithromycin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cleaning/Drying Agents", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Clemastine Fumarate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Clenbuterol HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Clindamycin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Clindamycin, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Clodronate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Clofazimine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Clomipramine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Clonazepam", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Clonidine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Clopidogrel Bisulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cloprostenol Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Clorazepate Dipotassium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Clorsulon", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Clotrimazole, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cloxacillin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Coal Tar & Coal Tar Combinations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Codeine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Colchicine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Colloidal Oatmeal", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Corticosteroid + Antimicrobial Preparations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Corticosteroid Preparations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Corticotropin (ACTH)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cortisone Acetate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cosyntropin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Cromolyn Sodium (Inhaled)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Cromolyn Sodium Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Crotamiton", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Cyanocobalamin (Vitamin B12)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Cyclopentolate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cyclophosphamide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Cyclosporine (Systemic)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Cyclosporine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cyproheptadine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Cytarabine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Dacarbazine (DTIC)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Dactinomycin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Dalteparin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Danazol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Danofloxacin Mesylate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Dantrolene Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Dapsone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Darbepoetin Alfa", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Decoquinate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Deferoxamine Mesylate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Deltamethrin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Demecarium Bromide Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Deracoxib", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Desflurane", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Deslorelin Acetate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Desmopressin Acetate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Desoxycorticosterone Pivalate (DOCP)", commercial_name: "", klass: "
-		 ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	 },
-  {
-		name: "Detomidine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Dexamethasone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Dexamethasone Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Dexmedetomidine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Dexpanthenol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Dexrazoxane", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Dextran 70", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Diazepam", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Diazoxide, Oral", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Dichlorphenamide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Dichlorvos", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Diclazuril", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Diclofenac Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Diclofenac Sodium, Transdermal", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Dicloxacillin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Diethylstilbestrol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Difluprednate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Digoxin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Dihydrotachysterol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Diltiazem HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Dimenhydrinate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Dimercaprol (BAL)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Dimethyl Sulfoxide (DMSO)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Diminazene Aceturate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Dinoprost Tromethamine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Dinotefuran + Pyriproxyfen (± Permethrin)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Diphenhydramine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Diphenhydramine HCl, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Diphenoxylate HCl + Atropine Sulfate", commercial_name: "", klass: "
-		 ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	 },
-  {
-		name: "Dirlotapide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Disopyramide Phosphate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Dobutamine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Docusate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Dolasetron Mesylate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Domperidone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Dopamine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Doramectin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Dorzolamide Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Doxapram HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Doxepin HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Doxorubicin HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Doxycycline", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Echothiophate Iodide Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Edetate Calcium Disodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Edetate Disodium Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Edrophonium Chloride", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Emedastine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Emodepside + Praziquantel", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Enalapril Maleate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Enilconazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Enoxaparin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Enrofloxacin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Enzymes, Topical (Lactoperoxidase, Lysozyme, Lactoferrin)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ephedrine Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Epinastine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Epinephrine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Epirubicin HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Epoetin Alfa (Erythropoietin)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Eprinomectin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Epsiprantel", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ergocalciferol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ertapenem Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Erythromycin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Erythromycin Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Esmolol HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Esomeprazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Essential Fatty Acids, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Estradiol Cypionate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Estriol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ethambutol HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ethanol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ethyl Lactate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Etidronate Disodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Etodolac", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Etomidate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Euthanasia Agents with Pentobarbital", commercial_name: "", klass: "
-		 ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	 },
-  {
-		name: "Famciclovir", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Famotidine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Fat Emulsion, Intravenous", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Fatty Acids, Essential/Omega (Oral)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Felbamate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Fenbendazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Fenoldopam", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Fentanyl Citrate, Injection", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Fentanyl Transdermal Solution", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Fentanyl, Transdermal Patch", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ferrous Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Fexofenadine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Filgrastim", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Finasteride", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Fipronil & Fipronil Combinations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Firocoxib", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Flavoxate HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Florfenicol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Fluconazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Flucytosine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Fludrocortisone Acetate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Flumazenil", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Flumethasone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Flunixin Meglumine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Fluorescein Sodium Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Fluorometholone Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Fluorouracil (5-FU)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Fluorouracil Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Fluoxetine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Fluralaner", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Flurbiprofen Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Fluticasone Propionate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Fluvoxamine Maleate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Folic Acid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Fomepizole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Fosfomycin Tromethamine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Furazolidone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Furosemide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Gabapentin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Gamithromycin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ganciclovir Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Gatifloxacin Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Gemcitabine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Gemfibrozil", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Gentamicin Sulfate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Gentamicin Sulfate, Systemic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Gentamicin Sulfate, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Glimepiride", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Glipizide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Glucagon", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Glucosamine + Chondroitin Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Glutamine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Glyburide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Glycerin, Oral", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Glycopyrrolate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Gonadorelin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Granisetron HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Grapiprant", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Griseofulvin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Guaifenesin, Intravenous", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Hemoglobin Glutamer-200 (Bovine)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Heparin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Hyaluronate Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Hydralazine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Hydrochlorothiazide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Hydrocodone Combination Products", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Hydrocortisone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Hydrocortisone Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Hydrocortisone, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Hydrogen Peroxide 3% (Oral)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Hydromorphone", commercial_name: "", klass: "Opiate Agonist", category: "Systemic Drug", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: "(hye-droe-mor-fone)"
-	},
-  {name: "Hydroxychloroquine Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Hydroxyethyl Starch Colloids (HES)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Hydroxyurea", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Hydroxyzine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Hyoscyamine Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Hypertonic Saline (7% – 7.5%)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Hypochlorous Acid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Idoxuridine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ifosfamide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Imepitoin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Imidacloprid & Imidacloprid Combinations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Imidapril", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Imidocarb Dipropionate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Imipenem-Cilastatin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Imipramine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Imiquimod, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Immune Globulin (Human), Intravenous", commercial_name: "", klass: "
-		 ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	 },
-  {name: "Indoxacarb ± Permethrin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Insulin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Interferon Alfa, Human Recombinant", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Interferon-ω (Omega), Feline Origin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Iodide, Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Iodixanol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Iohexol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ipodate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ipratropium Bromide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Irbesartan", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Iron Dextran", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Irrigating Solutions, Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Isoflupredone Acetate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Isoflupredone Acetate, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Isoflurane", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Isoniazid (INH)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Isopropyl Myristate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Isoproterenol HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Isosorbide Dinitrate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Isotretinoin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Isoxsuprine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Itraconazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Itraconazole Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ivermectin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Kaolin/Pectin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ketamine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ketoconazole, Systemic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ketoconazole, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ketoprofen", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ketorolac Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ketorolac Tromethamine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ketotifen Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "L-Theanine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Lactulose", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Lanthanum Carbonate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Latanoprost Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Leflunomide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Leucovorin Calcium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Leuprolide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Levamisole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Levetiracetam", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Levobunolol Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Levofloxacin Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Levothyroxine Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Lidocaine HCl (I.V.; Systemic)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Lidocaine, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Lime Sulfur (Sulfurated Lime Solution)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Lincomycin HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Liothyronine Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Lisinopril", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Lissamine Green Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Lithium Carbonate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Lokivetmab", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Lomustine (CCNU)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Loperamide HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Loratadine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Lorazepam", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Losartan Potassium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Loteprednol Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Lufenuron", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Lysine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "(s)-Methoprene Combinations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Magnesium Hydroxide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Magnesium, Intravenous", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Mannitol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Marbofloxacin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Maropitant Citrate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Masitinib Mesylate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Mavacoxib", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Mechlorethamine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Meclizine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Medetomidine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Medium Chain Triglycerides (MCT Oil)", commercial_name: "", klass: "
-		 ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	 },
-  {name: "Medroxyprogesterone Acetate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Megestrol Acetate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Meglumine Antimoniate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Melarsomine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Melatonin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Meloxicam", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Melphalan", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Meperidine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Mercaptopurine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Meropenem", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Metergoline", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Metformin HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Methadone HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Methazolamide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Methenamine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Methimazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Methionine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Methocarbamol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Methohexital Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Methotrexate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Methylene Blue", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Methylphenidate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Methylprednisolone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Methyltestosterone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Metipranolol Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Metoclopramide HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Metoprolol Tartrate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Metronidazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Metyrapone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Mexiletine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Mibolerone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Miconazole Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Miconazole, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Midazolam HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Milbemycin Oxime", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Miltefosine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Mineral Oil", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Minocycline HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Mirtazapine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Misoprostol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Mitomycin Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Mitotane", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Mitoxantrone HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Mometasone Furoate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Montelukast Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Morantel Tartrate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Morphine Sulfate", commercial_name: "", klass: "Opiate Agonist", category: "Systemic Drug", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: "(mor-feen)"
-	},
-  {name: "Morphine Sulfate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Moxidectin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Moxifloxacin Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Mupirocin (Pseudomonic Acid A)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Mycobacterial Cell Wall Fraction Immunomodulator", commercial_name: "
-		", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Mycophenolate Mofetil", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "N-Butylscopolammonium Bromide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Nalbuphine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Nalbuphine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Naloxone HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Naltrexone HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Nandrolone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Naproxen", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Natamycin Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Nedocromil Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Neomycin Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Neomycin Sulfate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Neostigmine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Nepafenac Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Niacinamide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Nitazoxanide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Nitenpyram", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Nitrofurantoin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Nitrofurazone, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Nitroglycerin, Transdermal", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Nitroprusside Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Nizatidine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Norepinephrine Bitartrate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Novobiocin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Nystatin & Nystatin Combinations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Nystatin (Oral)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Oclacitinib", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Octreotide Acetate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ofloxacin Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Olopatadine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Olsalazine Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Omeprazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ondansetron HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Orbifloxacin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Osaterone Acetate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Oseltamivir Phosphate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Oxacillin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Oxazepam", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Oxfendazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Oxibendazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Oxybutynin Chloride", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Oxymorphone HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Oxytetracycline", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Oxytetracycline/Polymyxin B Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Oxytocin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Paclitaxel", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Pamidronate Disodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Pancrelipase", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Pancuronium Bromide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Pantoprazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Parapox Ovis Virus Immunomodulator", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Paregoric", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Paromomycin Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Paroxetine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Penicillamine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Penicillin G", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Penicillin V Potassium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Penicillins, General Information", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Pentazocine Lactate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Pentobarbital Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Pentosan Polysulfate Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Pentoxifylline", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Pergolide Mesylate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Permethrin & Permethrin Combinations", commercial_name: "", klass: "
-		 ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	 },
-  {
-		name: "Phenobarbital", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Phenol/Menthol/Camphor", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Phenoxybenzamine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Phenylbutazone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Phenylephrine HCl, Parenteral", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Phenylephrine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Phenylpropanolamine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Phenytoin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Pheromones", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Phosphate, Parenteral", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Physostigmine Salicylate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Phytonadione (Vitamin K1)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Phytosphingosine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Pilocarpine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Pimecrolimus Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Pimecrolimus, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Pimobendan", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Piperacillin Sodium + Tazobactam", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Piperazine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Pirlimycin HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Piroxicam", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Polyethylene Glycol 3350 (PEG 3350)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Polysulfated Glycosaminoglycan (PSGAG)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Polysulfated Glycosaminoglycan Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ponazuril", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Posaconazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Potassium Chloride", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Povidone Iodine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Povidone Iodine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Pradofloxacin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Pralidoxime Chloride (2-PAM)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Pramoxine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Praziquantel", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Prazosin HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Prednisolone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Prednisolone Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Pregabalin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Primaquine Phosphate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Primidone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Probenecid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Procainamide HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Procarbazine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Prochlorperazine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Promethazine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Propantheline Bromide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Proparacaine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Propionibacterium acnes Injection", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Propofol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Propranolol HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Protamine Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Pseudoephedrine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Psyllium Hydrophilic Mucilloid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Pyrantel Pamoate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Pyrethrins & Pyrethrin Combinations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Pyridostigmine Bromide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Pyridoxine HCl (Vitamin B-6)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Pyrilamine Maleate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Pyrimethamine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Pyrimethamine + Sulfadiazine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Pyriproxyfen & Pyriproxyfen Combinations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Quinacrine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Quinidine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ramipril", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ranitidine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Remifentanil HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Rifampin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Rimexolone Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Robenacoxib", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Rocuronium Bromide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Romifidine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ronidazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Rose Bengal Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Rufinamide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "S-Adenosyl-Methionine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "S-Adenosyl-Methionine (SAMe) + Silybin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Salicylic Acid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Saline Cathartics", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Sarolaner", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Schirmer Tear Test Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Selamectin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Selegiline HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Selenium Sulfide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Sertraline HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Sevelamer", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Sevoflurane", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Sildenafil Citrate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Silver Sulfadiazine (SSD)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Silver Sulfadiazine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Silymarin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Sodium Bicarbonate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Sodium Chloride (Hypertonic) Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Sodium Polystyrene Sulfonate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Sodium Stibogluconate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Sodium Thiosulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Somatotropin (Growth Hormone)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Sorbitol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Sotalol HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Spectinomycin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Spinetoram", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Spinosad", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Spironolactone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Stanozolol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Staphylococcal Phage Lysate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Streptozocin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Succimer", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Succinylcholine Chloride", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Sucralfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Sufentanil Citrate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Sulfacetamide Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Sulfachlorpyridazine Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Sulfadiazine/Trimethoprim", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Sulfadimethoxine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Sulfadimethoxine/Ormetoprim", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Sulfasalazine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Sulfur, Precipitated", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Suprofen Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Tacrolimus Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Tacrolimus, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Tadalafil", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Tafluprost Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Tamsulosin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Taurine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Telmisartan", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Tepoxalin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Terbinafine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Terbinafine HCl, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Terbutaline Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Testosterone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Tetracaine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Tetracycline HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Theophylline", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Thiamine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Thioguanine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Thiopental Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Thiotepa", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Thyrotropin Alfa", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Thyrotropin-Releasing Hormone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Tiamulin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Ticarcillin Disodium + Clavulanate Potassium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Tildipirosin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Tiletamine HCl/Zolazepam HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Tilmicosin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Tiludronate Disodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Timolol Maleate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Tinidazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Tiopronin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Tissue Plasminogen Activator (Alteplase) Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Tobramycin Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Tobramycin Sulfate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Toceranib Phosphate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Tolazoline HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Tolfenamic Acid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Toltrazuril", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Topiramate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Torsemide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Tramadol HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Trazodone HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Tretinoin (trans-Retinoic Acid; Vitamin A Acid)", commercial_name: "
-		", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Triamcinolone Acetonide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Triamcinolone Acetonide, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Triamterene", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Triclosan", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Trientine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Trifluridine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Trilostane", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Trimeprazine Tartrate with Prednisolone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Tripelennamine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Triple Antibiotic Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Tropicamide Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Trypan Blue", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Tulathromycin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Tylosin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Ursodiol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Valproic Acid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Vanadium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Vancomycin HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Vancomycin Sulfate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Vasopressin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Vecuronium Bromide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Verapamil HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Vinblastine Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Vincristine Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Vitamin A", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Vitamin E ± Selenium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Voriconazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Voriconazole Ophthalmic", commercial_name: "", klass: " ", 	category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Warfarin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Xylazine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Yohimbine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Zafirlukast", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Zidovudine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {
-		name: "Zinc (Systemic)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Zinc Gluconate (Neutering Agent)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	},
-  {name: "Zinc Gluconate (Neutralized), Topical", commercial_name: "", klass: "
-		 ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	 },
-  {
-		name: "Zonisamide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-	}
+		name: "Acepromazine Maleate", commercial_name: "ACE" , klass: "Phenothiazine Sedative/Tranquilizer", category: "Systemic Drug", concentration: 10, adverse: "Acepromazine’s effect on blood pressure (hypotension) is well described and an important consideration in therapy. This effect is thought mediated by both central mechanisms and through the alpha-adrenergic actions of the drug. Cardiovascular collapse (secondary to bradycardia and hypotension) has been described in all major species. Dogs may be more sensitive to these effects than other animals.
+
+		Acepromazine has been shown to decrease tear production in cats (Ghaffari et al. 2010).", route_of_admin: 3, pronunciation: "(ase-pro-ma-zeen)"
+	},
+# 	{
+# 		name: "Acetaminophen", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Acetazolamide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Acetic Acid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Acetic Acid/Boric Acid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Acetohydroxamic Acid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Acetylcysteine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{name: "Acetylcysteine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Acitretin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Acyclovir", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Acyclovir Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Afoxolaner", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Aglepristone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Albendazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Albumin, Human", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Albuterol Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Alcaftadine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Alendronate Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Alfaxalone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Alfentanil HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Allopurinol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Alprazolam", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Altrenogest", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{name: "Aluminum Acetate Solution (Burow’s Solution)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Aluminum Hydroxide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Amantadine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{name: "Amikacin Sulfate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{name: "Amikacin Sulfate, Systemic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Aminocaproic Acid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{name: "Aminocaproic Acid Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{name: "Aminopentamide Hydrogen Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Aminophylline", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Amiodarone HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{name: "Amitraz & Amitraz Combinations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Amitriptyline HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Amlodipine Besylate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Ammonium Chloride", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Ammonium Molybdate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Amoxicillin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{name: "Amoxicillin/Clavulanate Potassium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Amphotericin B", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{name: "Amphotericin B Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Ampicillin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{name: "Ampicillin Sodium + Sulbactam Sodium", commercial_name: "", klass: "
+# 		 ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	 },
+# 	{
+# 		name: "Amprolium HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Antibacterials", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{name: "Antibiotic Potentiating Agents", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Antifungals", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{name: "Antiparasitic Preparations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Antiseptic Agents", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{name: "Antivenin (Crotalidae) Polyvalent (Equine Origin)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{name: "Antivenin (Latrodectus mactans) Black Widow Spider", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{name: "Antivenin (Micrurus fulvius) Eastern and Texas Coral Snake", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Apomorphine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{name: "Apraclonidine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Apramycin Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{name: "Artificial Tears/Ocular Lubricants", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{name: "Ascorbic Acid (Vitamin C)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Asparaginase", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Aspirin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Atenolol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Atipamezole HCl", commercial_name:"", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Atovaquone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Atracurium Besylate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{name: "Atropine Sulfate", commercial_name: "", klass: "Anticholinergic", category: "Systemic Drug", concentration: nil, adverse: "", route_of_admin: nil,  pronunciation: "(ah-troe-peen suhl-fate)"
+# 	},
+# 	{name: "Atropine Sulfate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Auranofin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Azaperone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Azathioprine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Azelastine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Azithromycin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{name: "Azithromycin Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+# 	{
+# 		name: "Aztreonam", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Bacitracin Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Bacitracin, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Baclofen", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Benazepril HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Benoxinate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Benzonatate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Benzoyl Peroxide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Bepotastine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Besifloxacin Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Betamethasone (Systemic)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Betamethasone Dipropionate, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Betamethasone Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Betaxolol Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Bethanechol Chloride", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Bimatoprost Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Bisacodyl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Bismuth Subsalicylate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Bleomycin Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Boldenone Undecylenate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Brimonidine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Brinzolamide Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Bromfenac Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Bromides", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Bromocriptine Mesylate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Budesonide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Bumetanide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Bupivacaine Liposome", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Buprenorphine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Buspirone HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Busulfan", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Butaphosphan with Cyanocobalamin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Butorphanol Tartrate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cabergoline", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Calcitonin Salmon", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Calcitriol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Calcium (Borogluconate, Chloride, Gluconate), Injectable", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Calcium Acetate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Calcium Carbonate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Candesartan Cilexetil", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Captopril", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Carbamazepine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Carbimazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Carboplatin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Carnitine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Carprofen", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Carteolol Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Carvedilol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Caspofungin Acetate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cefaclor", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cefadroxil", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cefazolin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cefepime HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cefixime", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cefotaxime Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cefotetan Disodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cefovecin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cefoxitin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cefpodoxime Proxetil", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ceftazidime", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Ceftiofur Crystalline Free Acid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ceftiofur HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ceftiofur Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ceftriaxone Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cefuroxime Axetil", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cephalexin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cephapirin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ceruminolytic Agents", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cetirizine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Charcoal, Activated", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Chlorambucil", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Chloramphenicol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Chloramphenicol Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Chlordiazepoxide ± Clidinium Br", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Chlorhexidine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Chlorothiazide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Chloroxylenol (PCMX)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Chlorpheniramine Maleate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Chlorpromazine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Chlorpropamide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Chlortetracycline", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Chorionic Gonadotropin (HCG)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Chromium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cidofovir Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cimetidine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ciprofloxacin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Ciprofloxacin Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cisapride", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cisplatin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Citrate, Potassium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Clarithromycin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cleaning/Drying Agents", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Clemastine Fumarate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Clenbuterol HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Clindamycin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Clindamycin, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Clodronate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Clofazimine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Clomipramine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Clonazepam", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Clonidine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Clopidogrel Bisulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cloprostenol Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Clorazepate Dipotassium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Clorsulon", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Clotrimazole, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cloxacillin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Coal Tar & Coal Tar Combinations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Codeine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Colchicine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Colloidal Oatmeal", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Corticosteroid + Antimicrobial Preparations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Corticosteroid Preparations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Corticotropin (ACTH)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cortisone Acetate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cosyntropin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Cromolyn Sodium (Inhaled)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Cromolyn Sodium Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Crotamiton", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Cyanocobalamin (Vitamin B12)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Cyclopentolate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cyclophosphamide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Cyclosporine (Systemic)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Cyclosporine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cyproheptadine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Cytarabine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Dacarbazine (DTIC)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Dactinomycin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Dalteparin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Danazol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Danofloxacin Mesylate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Dantrolene Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Dapsone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Darbepoetin Alfa", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Decoquinate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Deferoxamine Mesylate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Deltamethrin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Demecarium Bromide Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Deracoxib", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Desflurane", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Deslorelin Acetate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Desmopressin Acetate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Desoxycorticosterone Pivalate (DOCP)", commercial_name: "", klass: "
+# 		 ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	 },
+#   {
+# 		name: "Detomidine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Dexamethasone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Dexamethasone Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Dexmedetomidine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Dexpanthenol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Dexrazoxane", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Dextran 70", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Diazepam", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Diazoxide, Oral", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Dichlorphenamide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Dichlorvos", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Diclazuril", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Diclofenac Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Diclofenac Sodium, Transdermal", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Dicloxacillin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Diethylstilbestrol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Difluprednate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Digoxin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Dihydrotachysterol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Diltiazem HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Dimenhydrinate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Dimercaprol (BAL)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Dimethyl Sulfoxide (DMSO)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Diminazene Aceturate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Dinoprost Tromethamine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Dinotefuran + Pyriproxyfen (± Permethrin)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Diphenhydramine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Diphenhydramine HCl, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Diphenoxylate HCl + Atropine Sulfate", commercial_name: "", klass: "
+# 		 ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	 },
+#   {
+# 		name: "Dirlotapide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Disopyramide Phosphate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Dobutamine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Docusate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Dolasetron Mesylate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Domperidone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Dopamine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Doramectin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Dorzolamide Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Doxapram HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Doxepin HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Doxorubicin HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Doxycycline", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Echothiophate Iodide Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Edetate Calcium Disodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Edetate Disodium Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Edrophonium Chloride", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Emedastine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Emodepside + Praziquantel", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Enalapril Maleate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Enilconazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Enoxaparin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Enrofloxacin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Enzymes, Topical (Lactoperoxidase, Lysozyme, Lactoferrin)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ephedrine Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Epinastine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Epinephrine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Epirubicin HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Epoetin Alfa (Erythropoietin)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Eprinomectin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Epsiprantel", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ergocalciferol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ertapenem Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Erythromycin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Erythromycin Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Esmolol HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Esomeprazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Essential Fatty Acids, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Estradiol Cypionate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Estriol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ethambutol HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ethanol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ethyl Lactate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Etidronate Disodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Etodolac", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Etomidate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Euthanasia Agents with Pentobarbital", commercial_name: "", klass: "
+# 		 ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	 },
+#   {
+# 		name: "Famciclovir", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Famotidine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Fat Emulsion, Intravenous", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Fatty Acids, Essential/Omega (Oral)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Felbamate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Fenbendazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Fenoldopam", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Fentanyl Citrate, Injection", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Fentanyl Transdermal Solution", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Fentanyl, Transdermal Patch", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ferrous Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Fexofenadine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Filgrastim", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Finasteride", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Fipronil & Fipronil Combinations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Firocoxib", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Flavoxate HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Florfenicol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Fluconazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Flucytosine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Fludrocortisone Acetate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Flumazenil", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Flumethasone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Flunixin Meglumine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Fluorescein Sodium Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Fluorometholone Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Fluorouracil (5-FU)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Fluorouracil Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Fluoxetine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Fluralaner", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Flurbiprofen Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Fluticasone Propionate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Fluvoxamine Maleate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Folic Acid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Fomepizole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Fosfomycin Tromethamine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Furazolidone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Furosemide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Gabapentin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Gamithromycin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ganciclovir Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Gatifloxacin Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Gemcitabine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Gemfibrozil", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Gentamicin Sulfate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Gentamicin Sulfate, Systemic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Gentamicin Sulfate, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Glimepiride", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Glipizide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Glucagon", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Glucosamine + Chondroitin Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Glutamine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Glyburide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Glycerin, Oral", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Glycopyrrolate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Gonadorelin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Granisetron HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Grapiprant", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Griseofulvin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Guaifenesin, Intravenous", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Hemoglobin Glutamer-200 (Bovine)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Heparin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Hyaluronate Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Hydralazine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Hydrochlorothiazide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Hydrocodone Combination Products", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Hydrocortisone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Hydrocortisone Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Hydrocortisone, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Hydrogen Peroxide 3% (Oral)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+  	{name: "Hydromorphone", commercial_name: "Dilaudid", klass: "Opiate Agonist", category: "Systemic Drug", concentration: 2, adverse: "Hydromorphone has a similar adverse effect profile to oxymorphone or morphine in dogs and cats. In dogs, vomiting, sedation, panting, whining/vocalization, and defecation can be noted. A randomized clinical study in dogs, concluded that maropitant given at 1 mg/kg SC 1-hour prior to, or 2 mg/kg PO at least two-hours prior to hydromorphone (0.1 mg/kg IM) prevented vomiting (Kraus 2013). Vomiting, nausea and defecation reportedly may occur more frequently after SC dosing versus IV dosing. CNS depression may be greater than desired, particularly when treating moderate to severe pain. In dogs, constant rate IV infusions of >0.05 mg/kg/hr administered for more than 12 hours may cause sedation and adverse effects severe enough to require reducing the rate (Hansen 2008).
+
+		Dose related respiratory depression is possible and more likely during general anesthesia. Panting (may occur more often than with oxymorphone) and cough suppression (may be of benefit) can occur.
+
+		Secondary to enhanced vagal tone, hydromorphone can cause bradycardia. This apparently occurs on par with morphine or oxymorphone.
+
+		Hydromorphone may cause histamine release that, while significantly less then with morphine and usually clinically insignificant, may be significant in critically ill animals.
+
+		Constipation is possible with chronic dosing.
+
+		In cats, opioids may cause excitement and increase body temperature. One study done in eight cats showed that hydromorphone, morphine, butorphanol, and buprenorphine all cause an increase in body temperature and that hydromorphone increased body temperature equivalently to those other drugs. The increased body temperature in all of the experimental treatments was self-limiting, and the majority returned to normal within 5 hours. No apparent morbidity or mortality was noted. Administration of ketamine or isoflurane in addition to hydromorphone did not produce a clinically relevant increase in body temperature compared with that of administration of hydromorphone alone (Posner et al. 2010). Should hyperthermia occur, naloxone has been used to rapidly reduce body temperature in cats.", route_of_admin: 7, pronunciation: "(hye-droe-mor-fone)"
+		}
+#   {name: "Hydroxychloroquine Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Hydroxyethyl Starch Colloids (HES)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Hydroxyurea", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Hydroxyzine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Hyoscyamine Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Hypertonic Saline (7% – 7.5%)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Hypochlorous Acid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Idoxuridine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ifosfamide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Imepitoin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Imidacloprid & Imidacloprid Combinations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Imidapril", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Imidocarb Dipropionate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Imipenem-Cilastatin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Imipramine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Imiquimod, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Immune Globulin (Human), Intravenous", commercial_name: "", klass: "
+# 		 ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	 },
+#   {name: "Indoxacarb ± Permethrin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Insulin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Interferon Alfa, Human Recombinant", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Interferon-ω (Omega), Feline Origin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Iodide, Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Iodixanol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Iohexol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ipodate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ipratropium Bromide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Irbesartan", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Iron Dextran", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Irrigating Solutions, Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Isoflupredone Acetate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Isoflupredone Acetate, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Isoflurane", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Isoniazid (INH)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Isopropyl Myristate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Isoproterenol HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Isosorbide Dinitrate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Isotretinoin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Isoxsuprine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Itraconazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Itraconazole Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ivermectin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Kaolin/Pectin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ketamine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ketoconazole, Systemic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ketoconazole, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ketoprofen", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ketorolac Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ketorolac Tromethamine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ketotifen Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "L-Theanine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Lactulose", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Lanthanum Carbonate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Latanoprost Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Leflunomide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Leucovorin Calcium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Leuprolide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Levamisole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Levetiracetam", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Levobunolol Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Levofloxacin Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Levothyroxine Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Lidocaine HCl (I.V.; Systemic)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Lidocaine, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Lime Sulfur (Sulfurated Lime Solution)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Lincomycin HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Liothyronine Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Lisinopril", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Lissamine Green Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Lithium Carbonate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Lokivetmab", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Lomustine (CCNU)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Loperamide HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Loratadine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Lorazepam", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Losartan Potassium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Loteprednol Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Lufenuron", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Lysine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "(s)-Methoprene Combinations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Magnesium Hydroxide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Magnesium, Intravenous", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Mannitol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Marbofloxacin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Maropitant Citrate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Masitinib Mesylate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Mavacoxib", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Mechlorethamine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Meclizine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Medetomidine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Medium Chain Triglycerides (MCT Oil)", commercial_name: "", klass: "
+# 		 ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	 },
+#   {name: "Medroxyprogesterone Acetate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Megestrol Acetate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Meglumine Antimoniate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Melarsomine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Melatonin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Meloxicam", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Melphalan", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Meperidine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Mercaptopurine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Meropenem", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Metergoline", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Metformin HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Methadone HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Methazolamide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Methenamine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Methimazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Methionine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Methocarbamol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Methohexital Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Methotrexate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Methylene Blue", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Methylphenidate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Methylprednisolone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Methyltestosterone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Metipranolol Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Metoclopramide HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Metoprolol Tartrate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Metronidazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Metyrapone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Mexiletine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Mibolerone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Miconazole Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Miconazole, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Midazolam HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Milbemycin Oxime", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Miltefosine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Mineral Oil", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Minocycline HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Mirtazapine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Misoprostol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Mitomycin Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Mitotane", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Mitoxantrone HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Mometasone Furoate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Montelukast Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Morantel Tartrate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Morphine Sulfate", commercial_name: "", klass: "Opiate Agonist", category: "Systemic Drug", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: "(mor-feen)"
+# 	},
+#   {name: "Morphine Sulfate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Moxidectin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Moxifloxacin Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Mupirocin (Pseudomonic Acid A)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Mycobacterial Cell Wall Fraction Immunomodulator", commercial_name: "
+# 		", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Mycophenolate Mofetil", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "N-Butylscopolammonium Bromide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Nalbuphine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Nalbuphine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Naloxone HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Naltrexone HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Nandrolone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Naproxen", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Natamycin Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Nedocromil Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Neomycin Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Neomycin Sulfate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Neostigmine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Nepafenac Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Niacinamide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Nitazoxanide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Nitenpyram", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Nitrofurantoin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Nitrofurazone, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Nitroglycerin, Transdermal", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Nitroprusside Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Nizatidine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Norepinephrine Bitartrate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Novobiocin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Nystatin & Nystatin Combinations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Nystatin (Oral)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Oclacitinib", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Octreotide Acetate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ofloxacin Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Olopatadine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Olsalazine Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Omeprazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ondansetron HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Orbifloxacin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Osaterone Acetate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Oseltamivir Phosphate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Oxacillin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Oxazepam", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Oxfendazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Oxibendazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Oxybutynin Chloride", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Oxymorphone HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Oxytetracycline", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Oxytetracycline/Polymyxin B Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Oxytocin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Paclitaxel", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Pamidronate Disodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Pancrelipase", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Pancuronium Bromide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Pantoprazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Parapox Ovis Virus Immunomodulator", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Paregoric", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Paromomycin Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Paroxetine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Penicillamine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Penicillin G", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Penicillin V Potassium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Penicillins, General Information", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Pentazocine Lactate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Pentobarbital Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Pentosan Polysulfate Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Pentoxifylline", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Pergolide Mesylate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Permethrin & Permethrin Combinations", commercial_name: "", klass: "
+# 		 ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	 },
+#   {
+# 		name: "Phenobarbital", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Phenol/Menthol/Camphor", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Phenoxybenzamine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Phenylbutazone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Phenylephrine HCl, Parenteral", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Phenylephrine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Phenylpropanolamine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Phenytoin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Pheromones", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Phosphate, Parenteral", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Physostigmine Salicylate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Phytonadione (Vitamin K1)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Phytosphingosine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Pilocarpine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Pimecrolimus Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Pimecrolimus, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Pimobendan", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Piperacillin Sodium + Tazobactam", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Piperazine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Pirlimycin HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Piroxicam", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Polyethylene Glycol 3350 (PEG 3350)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Polysulfated Glycosaminoglycan (PSGAG)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Polysulfated Glycosaminoglycan Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ponazuril", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Posaconazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Potassium Chloride", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Povidone Iodine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Povidone Iodine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Pradofloxacin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Pralidoxime Chloride (2-PAM)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Pramoxine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Praziquantel", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Prazosin HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Prednisolone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Prednisolone Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Pregabalin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Primaquine Phosphate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Primidone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Probenecid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Procainamide HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Procarbazine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Prochlorperazine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Promethazine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Propantheline Bromide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Proparacaine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Propionibacterium acnes Injection", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Propofol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Propranolol HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Protamine Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Pseudoephedrine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Psyllium Hydrophilic Mucilloid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Pyrantel Pamoate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Pyrethrins & Pyrethrin Combinations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Pyridostigmine Bromide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Pyridoxine HCl (Vitamin B-6)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Pyrilamine Maleate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Pyrimethamine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Pyrimethamine + Sulfadiazine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Pyriproxyfen & Pyriproxyfen Combinations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Quinacrine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Quinidine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ramipril", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ranitidine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Remifentanil HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Rifampin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Rimexolone Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Robenacoxib", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Rocuronium Bromide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Romifidine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ronidazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Rose Bengal Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Rufinamide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "S-Adenosyl-Methionine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "S-Adenosyl-Methionine (SAMe) + Silybin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Salicylic Acid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Saline Cathartics", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Sarolaner", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Schirmer Tear Test Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Selamectin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Selegiline HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Selenium Sulfide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Sertraline HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Sevelamer", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Sevoflurane", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Sildenafil Citrate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Silver Sulfadiazine (SSD)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Silver Sulfadiazine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Silymarin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Sodium Bicarbonate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Sodium Chloride (Hypertonic) Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Sodium Polystyrene Sulfonate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Sodium Stibogluconate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Sodium Thiosulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Somatotropin (Growth Hormone)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Sorbitol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Sotalol HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Spectinomycin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Spinetoram", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Spinosad", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Spironolactone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Stanozolol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Staphylococcal Phage Lysate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Streptozocin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Succimer", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Succinylcholine Chloride", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Sucralfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Sufentanil Citrate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Sulfacetamide Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Sulfachlorpyridazine Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Sulfadiazine/Trimethoprim", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Sulfadimethoxine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Sulfadimethoxine/Ormetoprim", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Sulfasalazine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Sulfur, Precipitated", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Suprofen Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Tacrolimus Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Tacrolimus, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Tadalafil", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Tafluprost Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Tamsulosin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Taurine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Telmisartan", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Tepoxalin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Terbinafine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Terbinafine HCl, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Terbutaline Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Testosterone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Tetracaine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Tetracycline HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Theophylline", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Thiamine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Thioguanine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Thiopental Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Thiotepa", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Thyrotropin Alfa", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Thyrotropin-Releasing Hormone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Tiamulin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Ticarcillin Disodium + Clavulanate Potassium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Tildipirosin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Tiletamine HCl/Zolazepam HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Tilmicosin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Tiludronate Disodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Timolol Maleate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Tinidazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Tiopronin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Tissue Plasminogen Activator (Alteplase) Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Tobramycin Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Tobramycin Sulfate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Toceranib Phosphate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Tolazoline HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Tolfenamic Acid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Toltrazuril", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Topiramate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Torsemide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Tramadol HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Trazodone HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Tretinoin (trans-Retinoic Acid; Vitamin A Acid)", commercial_name: "
+# 		", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Triamcinolone Acetonide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Triamcinolone Acetonide, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Triamterene", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Triclosan", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Trientine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Trifluridine Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Trilostane", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Trimeprazine Tartrate with Prednisolone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Tripelennamine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Triple Antibiotic Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Tropicamide Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Trypan Blue", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Tulathromycin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Tylosin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Ursodiol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Valproic Acid", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Vanadium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Vancomycin HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Vancomycin Sulfate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Vasopressin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Vecuronium Bromide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Verapamil HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Vinblastine Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Vincristine Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Vitamin A", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Vitamin E ± Selenium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Voriconazole", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Voriconazole Ophthalmic", commercial_name: "", klass: " ", 	category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Warfarin Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Xylazine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Yohimbine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Zafirlukast", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Zidovudine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {
+# 		name: "Zinc (Systemic)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Zinc Gluconate (Neutering Agent)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	},
+#   {name: "Zinc Gluconate (Neutralized), Topical", commercial_name: "", klass: "
+# 		 ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	 },
+#   {
+# 		name: "Zonisamide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+# 	}
 ])

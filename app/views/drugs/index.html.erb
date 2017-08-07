@@ -2,6 +2,11 @@
 
 <h1>Drugs</h1>
 
+<%= simple_form_for(drugs_path, method: "get") do %>
+    <%= text_field_tag :search, params[:search], placeholder: "Search Drugs" %>
+    <%= submit_tag "Search", :name => nil %>
+<% end %>
+
 <table>
   <thead>
     <tr>
@@ -26,7 +31,7 @@
         <td><%= drug.category %></td>
         <td><%= drug.concentration %></td>
         <td><%= drug.adverse %></td>
-        <td><%= drug.route_of_admin %></td>
+        <td><%= drug.route_of_admin_expand %></td>
         <td><%= drug.pronunciation %></td>
         <td><%= link_to 'Show', drug %></td>
         <td><%= link_to 'Edit', edit_drug_path(drug) %></td>
