@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170804184147) do
+ActiveRecord::Schema.define(version: 20170807150232) do
 
   create_table "breeds", force: :cascade do |t|
     t.string "name"
@@ -26,6 +26,33 @@ ActiveRecord::Schema.define(version: 20170804184147) do
     t.string "procedure_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "drugs", force: :cascade do |t|
+    t.string "name"
+    t.string "commercial_name"
+    t.string "klass"
+    t.string "category"
+    t.decimal "concentration"
+    t.text "adverse"
+    t.integer "route_of_admin"
+    t.string "pronunciation"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "patients", force: :cascade do |t|
+    t.string "fname"
+    t.string "lname"
+    t.date "dob"
+    t.integer "sex"
+    t.decimal "weight"
+    t.integer "breed_id"
+    t.integer "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["breed_id"], name: "index_patients_on_breed_id"
+    t.index ["user_id"], name: "index_patients_on_user_id"
   end
 
   create_table "procedures", force: :cascade do |t|

@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  commercial_name: MyString
+  class: MyString
+  category: MyString
+  concentration: 9.99
+  adverse: MyText
+  route_of_admin: 1
+  pronunciation: MyString
+
+two:
+  name: MyString
+  commercial_name: MyString
+  class: MyString
+  category: MyString
+  concentration: 9.99
+  adverse: MyText
+  route_of_admin: 1
+  pronunciation: MyString

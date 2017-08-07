@@ -15,6 +15,7 @@ rails new ax_express
 ```
 gem 'devise'
 gem 'simple_form'
+gem 'attr_bitwise'
 ```
 
 ```
@@ -68,18 +69,33 @@ devise_for :users, controllers: {
 rails g scaffold category name:string core:integer procedure_id
 rails g scaffold procedure name:string category_id:integer category:belongs_to
 rails g scaffold breed name:string species:integer status:integer  
- 
+rails g scaffold patient fname:string lname:string dob:date sex:integer weight:decimal  breed:belongs_to user:belongs_to
+rails g scaffold drug name:string commercial_name:string class:string category:string concentration:decimal adverse:text route_of_admin:integer pronunciation:string  
+ ```
 
 ----------------------------------------------------------------------------------------------------------------------------------
                                               DICTIONARY/SHORTHAND
 ----------------------------------------------------------------------------------------------------------------------------------
----Category table, @@core{} short hand---
-abdom: = "Abdominal"
-gas: = "Gastrointestinal Surgery"
-head: = "Head/Neck Surgery"
-mis: = "Minimally Invasive Surgery"
-neuro: = "Neurologic Surgery "
-ortho: = "Orthopedic Surgery"
-skin: = "Skin/Reconstructive Surgery"
-thor: = "Thoracic Surgery "
-uro: = "Urogenital"
+---Category table, @@cores{} short hand---
+* abdom = "Abdominal"
+* gas = "Gastrointestinal Surgery"
+* head = "Head/Neck Surgery"
+* mis = "Minimally Invasive Surgery"
+* neuro = "Neurologic Surgery "
+* ortho = "Orthopedic Surgery"
+* skin = "Skin/Reconstructive Surgery"
+* thor = "Thoracic Surgery "
+* uro = "Urogenital"
+
+---enum sexes for patients---
+* mi "male intact"
+* mn "male neutered"
+* fi "female intact"
+* fs "female spayed"
+
+---Drug table, @@routes{} for "Route of Administration", short hand
+* iv = "Intravenous"
+* im = "Intramuscular"
+* sc = "Subcutaneous"
+* po = "Per os"
+* inh = "Inhalational"

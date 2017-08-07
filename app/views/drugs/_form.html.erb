@@ -1,0 +1,18 @@
+<%= simple_form_for(@drug) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :name %>
+    <%= f.input :commercial_name %>
+    <%= f.input :class %>
+    <%= f.input :category %>
+    <%= f.input :concentration %>
+    <%= f.input :adverse %>
+    <%= f.input :route_of_admin %>
+    <%= f.input :pronunciation %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
