@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Patient Procedures</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Procedure</th>
+      <th>Patient</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @patient_procedures.each do |patient_procedure| %>
+      <tr>
+        <td><%= patient_procedure.procedure %></td>
+        <td><%= patient_procedure.patient %></td>
+        <td><%= link_to 'Show', patient_procedure %></td>
+        <td><%= link_to 'Edit', edit_patient_procedure_path(patient_procedure) %></td>
+        <td><%= link_to 'Destroy', patient_procedure, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Patient Procedure', new_patient_procedure_path %>

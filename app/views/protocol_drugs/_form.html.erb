@@ -1,0 +1,14 @@
+<%= simple_form_for(@protocol_drug) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :dose %>
+    <%= f.input :additional_analgesic %>
+    <%= f.association :drug %>
+    <%= f.association :protocol %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  asa: 1
+  temperament: MyString
+  bcs: 1
+  breed: MyString
+  comorbidities: MyString
+  age: 1
+  heart_murmur: 1
+  procedure: MyString
+  history: false
+  patient_procedure: one
+
+two:
+  asa: 1
+  temperament: MyString
+  bcs: 1
+  breed: MyString
+  comorbidities: MyString
+  age: 1
+  heart_murmur: 1
+  procedure: MyString
+  history: false
+  patient_procedure: two

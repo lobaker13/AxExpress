@@ -1,0 +1,2 @@
+module ProtocolDrugsHelper
+end

@@ -5,7 +5,8 @@
     <%= f.input :fname %>
     <%= f.input :lname %>
     <%= f.input :dob %>
-    <%= f.input :sex %>
+    <!-- hash invert function to show the description tied to the enum instead of the actual enum itself -->
+    <%= f.select :sex, options_for_select(Patient.sexes_hash.invert) %>
     <%= f.input :weight %>
     <%= f.association :breed %>
     <%= f.association :user %>

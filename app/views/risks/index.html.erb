@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Risks</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Asa</th>
+      <th>Temperament</th>
+      <th>Bcs</th>
+      <th>Breed</th>
+      <th>Comorbidities</th>
+      <th>Age</th>
+      <th>Heart murmur</th>
+      <th>Procedure</th>
+      <th>History</th>
+      <th>Patient procedure</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @risks.each do |risk| %>
+      <tr>
+        <td><%= risk.asa %></td>
+        <td><%= risk.temperament %></td>
+        <td><%= risk.bcs %></td>
+        <td><%= risk.breed %></td>
+        <td><%= risk.comorbidities %></td>
+        <td><%= risk.age %></td>
+        <td><%= risk.heart_murmur %></td>
+        <td><%= risk.procedure %></td>
+        <td><%= risk.history %></td>
+        <td><%= risk.patient_procedure %></td>
+        <td><%= link_to 'Show', risk %></td>
+        <td><%= link_to 'Edit', edit_risk_path(risk) %></td>
+        <td><%= link_to 'Destroy', risk, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Risk', new_risk_path %>

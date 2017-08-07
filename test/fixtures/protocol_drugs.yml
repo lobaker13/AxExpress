@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dose: 9.99
+  additional_analgesic: 1
+  drug: one
+  protocol: one
+
+two:
+  dose: 9.99
+  additional_analgesic: 1
+  drug: two
+  protocol: two
