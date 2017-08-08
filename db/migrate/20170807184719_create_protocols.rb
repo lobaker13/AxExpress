@@ -4,7 +4,7 @@ class CreateProtocols < ActiveRecord::Migration[5.1]
       t.decimal :weight
       t.integer :age
       t.integer :asa
-      t.integer :bsc
+      t.integer :bcs
       t.text :alert
       t.belongs_to :patient, foreign_key: true
 

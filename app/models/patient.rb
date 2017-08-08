@@ -12,6 +12,9 @@ class Patient < ApplicationRecord
     @@sexes[self.sex.to_sym]
   end
 
+  def weight_kg
+    "#{weight}" + "kg"
+  end
   belongs_to :breed
   belongs_to :user
   has_many :procedures, through: :patient_procedure

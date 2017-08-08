@@ -7,11 +7,10 @@ class CreateDrugs < ActiveRecord::Migration[5.1]
       t.string :category
       t.decimal :concentration
       t.text :adverse
-      t.integer :route_of_admin
+      t.integer :route_of_admin_value
       t.string :pronunciation
 
       t.timestamps
     end
   end
 end
- 

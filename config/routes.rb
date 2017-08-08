@@ -13,5 +13,4 @@ Rails.application.routes.draw do
   devise_for :users, controllers: {
         registrations: 'users/registrations'
       }
-  get '/drugsearch' => 'drugs#index', as: 'drug_search'
 end

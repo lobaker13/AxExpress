@@ -1,10 +1,32 @@
+User.create([
+{
+	id: 1,
+	fname: "Logan",
+	lname: "Baker",
+	email: "lobaker13@gmail.com",
+	password: "password"
+}
+])
+Patient.create([
+{
+	fname: "Temperance",
+	lname: "Baker",
+	dob: nil,
+	sex: :fi,
+	weight: 22.7,
+	breed_id: 85,
+	user_id: 1
+}
+])
+
+
 Breed.create([
 
 	{ name: "Affenpinscher",
 		species: :canine
 	},
 	{ name: "Afghan Hound",
-		species: :canine
+		species: :canine,
 	},
 	{ name: "Airedale Terrier",
 		species: :canine

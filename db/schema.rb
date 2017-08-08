@@ -35,7 +35,6 @@ ActiveRecord::Schema.define(version: 20170807184745) do
     t.string "category"
     t.decimal "concentration"
     t.text "adverse"
-    # add "_value" for the attr_bitwise gem
     t.integer "route_of_admin_value"
     t.string "pronunciation"
     t.datetime "created_at", null: false
@@ -88,7 +87,7 @@ ActiveRecord::Schema.define(version: 20170807184745) do
     t.decimal "weight"
     t.integer "age"
     t.integer "asa"
-    t.integer "bsc"
+    t.integer "bcs"
     t.text "alert"
     t.integer "patient_id"
     t.datetime "created_at", null: false
@@ -123,6 +122,8 @@ ActiveRecord::Schema.define(version: 20170807184745) do
     t.datetime "last_sign_in_at"
     t.string "current_sign_in_ip"
     t.string "last_sign_in_ip"
+    t.string "fname"
+    t.string "lname"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["email"], name: "index_users_on_email", unique: true
