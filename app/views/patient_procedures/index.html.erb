@@ -14,8 +14,8 @@
   <tbody>
     <% @patient_procedures.each do |patient_procedure| %>
       <tr>
-        <td><%= patient_procedure.procedure %></td>
-        <td><%= patient_procedure.patient %></td>
+        <td><%= patient_procedure.procedure.name %></td>
+        <td><%= patient_procedure.patient.fname %></td>
         <td><%= link_to 'Show', patient_procedure %></td>
         <td><%= link_to 'Edit', edit_patient_procedure_path(patient_procedure) %></td>
         <td><%= link_to 'Destroy', patient_procedure, method: :delete, data: { confirm: 'Are you sure?' } %></td>

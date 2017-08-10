@@ -27,7 +27,7 @@
 
 <p>
   <strong>Species:</strong>
-  <%= @patient.breed.name %>
+  <%= @patient.breed.species %>
 </p>
 
 <p>
@@ -41,4 +41,5 @@
 </p>
 
 <%= link_to 'Edit', edit_patient_path(@patient) %> |
-<%= link_to 'Back', patients_path %>
+<%= link_to 'Back', patients_path %> |
+<%= link_to 'New Procedure', new_patient_procedure_path %>

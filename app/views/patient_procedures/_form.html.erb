@@ -3,7 +3,8 @@
 
   <div class="form-inputs">
     <%= f.association :procedure %>
-    <%= f.association :patient %>
+    <%= f.select :patient_id, options_for_select(current_user.patients.pluck( :fname, :id)) %>
+    <%# f.select :patient, options_for_select(Patient.all.map{|patient| [patient.full_name, patient.id]}) %>
   </div>
 
   <div class="form-actions">

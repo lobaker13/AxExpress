@@ -5,6 +5,10 @@ class Patient < ApplicationRecord
               fs: "Female, spayed"}
   enum sex: @@sexes.keys
 
+  def full_name
+    "#{fname} #{lname}".strip
+  end
+
   def self.sexes_hash
     @@sexes
   end

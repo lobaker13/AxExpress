@@ -1,0 +1,2 @@
+module ClinicalDosesHelper
+end

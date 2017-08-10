@@ -2,12 +2,12 @@
 
 <p>
   <strong>Procedure:</strong>
-  <%= @patient_procedure.procedure %>
+  <%= @patient_procedure.procedure.name %>
 </p>
 
 <p>
   <strong>Patient:</strong>
-  <%= @patient_procedure.patient %>
+  <%= @patient_procedure.patient.full_name %>
 </p>
 
 <%= link_to 'Edit', edit_patient_procedure_path(@patient_procedure) %> |

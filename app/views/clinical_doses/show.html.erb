@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Min:</strong>
+  <%= @clinical_dose.min %>
+</p>
+
+<p>
+  <strong>Max:</strong>
+  <%= @clinical_dose.max %>
+</p>
+
+<p>
+  <strong>Drug:</strong>
+  <%= @clinical_dose.drug %>
+</p>
+
+<%= link_to 'Edit', edit_clinical_dose_path(@clinical_dose) %> |
+<%= link_to 'Back', clinical_doses_path %>

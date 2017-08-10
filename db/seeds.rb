@@ -1,24 +1,11 @@
 User.create([
-{
-	id: 1,
+{ id: 1,
 	fname: "Logan",
 	lname: "Baker",
 	email: "lobaker13@gmail.com",
 	password: "password"
 }
 ])
-Patient.create([
-{
-	fname: "Temperance",
-	lname: "Baker",
-	dob: nil,
-	sex: :fi,
-	weight: 22.7,
-	breed_id: 85,
-	user_id: 1
-}
-])
-
 
 Breed.create([
 
@@ -955,6 +942,18 @@ Breed.create([
 	},
 	{ name: "York Chocolate",
 		species: :feline
+	}
+])
+
+Patient.create([
+	{
+		fname: "Temperance",
+		lname: "Baker",
+		dob: nil,
+		sex: :fi,
+		weight: 22.7,
+		breed_id: 85,
+		user_id: 1
 	}
 ])
 
@@ -3251,9 +3250,9 @@ Drug.create([
 # 	},
 #   {name: "Dexamethasone Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
-#   {
-# 		name: "Dexmedetomidine", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-# 	},
+  {
+		name: "Dexmedetomidine", commercial_name: "Dexdomitor", klass: "Alpha-2-Adrenergic Agonsit", category: "Systemic Drug", concentration: nil, adverse: "The adverse effects reported with medetomidine or dexmedetomidine are essentially extensions of their pharmacologic effects including bradycardia, vasoconstriction, muscle tremors, transient hypertension, reduced tear production, occasional arrhythmias (2nd degree AV block, Supraventricular Tachycardia [SVT], ventricular escape beats, Premature Ventricular Contractions (PVCs), decreased respiration, hypothermia, urination, vomiting, hyperglycemia, and pain on injection (IM). Rare effects that have been reported include: prolonged sedation, paradoxical excitation, hypersensitivity, pulmonary edema, apnea, and death from circulatory failure. Adverse effects that require treatment can generally be alleviated with atipamezole; however, analgesic effects will also be reversed.", route_of_admin: 4, pronunciation: "deks-mee-deh-toe-mih-deen"
+	},
 #   {
 # 		name: "Dexpanthenol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
@@ -3644,18 +3643,19 @@ Drug.create([
 # 	},
 #   {name: "Hydrogen Peroxide 3% (Oral)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
-  	{name: "Hydromorphone", commercial_name: "Dilaudid", klass: "Opiate Agonist", category: "Systemic Drug", concentration: 2, adverse: "Hydromorphone has a similar adverse effect profile to oxymorphone or morphine in dogs and cats. In dogs, vomiting, sedation, panting, whining/vocalization, and defecation can be noted. A randomized clinical study in dogs, concluded that maropitant given at 1 mg/kg SC 1-hour prior to, or 2 mg/kg PO at least two-hours prior to hydromorphone (0.1 mg/kg IM) prevented vomiting (Kraus 2013). Vomiting, nausea and defecation reportedly may occur more frequently after SC dosing versus IV dosing. CNS depression may be greater than desired, particularly when treating moderate to severe pain. In dogs, constant rate IV infusions of >0.05 mg/kg/hr administered for more than 12 hours may cause sedation and adverse effects severe enough to require reducing the rate (Hansen 2008).
+  	{
+			name: "Hydromorphone", commercial_name: "Dilaudid", klass: "Opiate Agonist", category: "Systemic Drug", concentration: 2, adverse: "Hydromorphone has a similar adverse effect profile to oxymorphone or morphine in dogs and cats. In dogs, vomiting, sedation, panting, whining/vocalization, and defecation can be noted. A randomized clinical study in dogs, concluded that maropitant given at 1 mg/kg SC 1-hour prior to, or 2 mg/kg PO at least two-hours prior to hydromorphone (0.1 mg/kg IM) prevented vomiting (Kraus 2013). Vomiting, nausea and defecation reportedly may occur more frequently after SC dosing versus IV dosing. CNS depression may be greater than desired, particularly when treating moderate to severe pain. In dogs, constant rate IV infusions of >0.05 mg/kg/hr administered for more than 12 hours may cause sedation and adverse effects severe enough to require reducing the rate (Hansen 2008).
 
-		Dose related respiratory depression is possible and more likely during general anesthesia. Panting (may occur more often than with oxymorphone) and cough suppression (may be of benefit) can occur.
+			Dose related respiratory depression is possible and more likely during general anesthesia. Panting (may occur more often than with oxymorphone) and cough suppression (may be of benefit) can occur.
 
-		Secondary to enhanced vagal tone, hydromorphone can cause bradycardia. This apparently occurs on par with morphine or oxymorphone.
+			Secondary to enhanced vagal tone, hydromorphone can cause bradycardia. This apparently occurs on par with morphine or oxymorphone.
 
-		Hydromorphone may cause histamine release that, while significantly less then with morphine and usually clinically insignificant, may be significant in critically ill animals.
+			Hydromorphone may cause histamine release that, while significantly less then with morphine and usually clinically insignificant, may be significant in critically ill animals.
 
-		Constipation is possible with chronic dosing.
+			Constipation is possible with chronic dosing.
 
-		In cats, opioids may cause excitement and increase body temperature. One study done in eight cats showed that hydromorphone, morphine, butorphanol, and buprenorphine all cause an increase in body temperature and that hydromorphone increased body temperature equivalently to those other drugs. The increased body temperature in all of the experimental treatments was self-limiting, and the majority returned to normal within 5 hours. No apparent morbidity or mortality was noted. Administration of ketamine or isoflurane in addition to hydromorphone did not produce a clinically relevant increase in body temperature compared with that of administration of hydromorphone alone (Posner et al. 2010). Should hyperthermia occur, naloxone has been used to rapidly reduce body temperature in cats.", route_of_admin: 7, pronunciation: "(hye-droe-mor-fone)"
-		}
+			In cats, opioids may cause excitement and increase body temperature. One study done in eight cats showed that hydromorphone, morphine, butorphanol, and buprenorphine all cause an increase in body temperature and that hydromorphone increased body temperature equivalently to those other drugs. The increased body temperature in all of the experimental treatments was self-limiting, and the majority returned to normal within 5 hours. No apparent morbidity or mortality was noted. Administration of ketamine or isoflurane in addition to hydromorphone did not produce a clinically relevant increase in body temperature compared with that of administration of hydromorphone alone (Posner et al. 2010). Should hyperthermia occur, naloxone has been used to rapidly reduce body temperature in cats.", route_of_admin: 7, pronunciation: "(hye-droe-mor-fone)"
+	},
 #   {name: "Hydroxychloroquine Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
 #   {name: "Hydroxyethyl Starch Colloids (HES)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
@@ -3739,9 +3739,11 @@ Drug.create([
 # 	},
 #   {name: "Isoflupredone Acetate, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
-#   {
-# 		name: "Isoflurane", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-# 	},
+  {
+		name: "Isoflurane", commercial_name: "Isoflo", klass: "General Anesthetic, Inhalant", category: "Systemic Drug", concentration: nil, adverse: "At usual concentrations, hypotension secondary to vasodilation may occur and is considered to be dose related. Hypotension usually responds to fluids, but profound hypotension may require the use of vasopressors. A study in dogs, found that hetastarch was superior to LRS for treating isoflurane-induced hypotension (Aarnes et al. 2009). While cardiodepression is usually not clinically significant at doses causing surgical planes of anesthesia, it can occur. Arrhythmias have rarely been reported.
+
+		Dose-dependent respiratory depression, and GI effects (nausea, vomiting, ileus) have been reported", route_of_admin: nil, pronunciation: "eye-soe-flure-ane"
+	},
 #   {
 # 		name: "Isoniazid (INH)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
@@ -3771,9 +3773,15 @@ Drug.create([
 #   {
 # 		name: "Kaolin/Pectin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
-#   {
-# 		name: "Ketamine HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-# 	},
+  {
+		name: "Ketamine HCl", commercial_name: "Ketaset", klass: "Dissociative General Anesthetic, NMDA-Receptor Antagonist", category: "Systemic Drug", concentration: 100, adverse: "In species where the drug is FDA-approved, the following adverse reactions are listed by the manufacturer: “respiratory depression…following high doses, emesis, vocalization, erratic and prolonged recovery, dyspnea, spastic jerking movements, convulsions, muscular tremors, hypertonicity, opisthotonos and cardiac arrest. In the cat, myoclonic jerking and/or tonic/clonic convulsions can be controlled by ultrashort-acting barbiturates or acepromazine. These latter drugs must be given intravenously, cautiously, and slowly, to effect (approximately 1/6 to 1/4 the normal dose may be required).” (Package Insert; Ketaset®—Fort Dodge)
+
+		When used alone ketamine may induce seizures. Seizures have been reported to occur in up to 20% of cats that receive ketamine (alone) at therapeutic dosages. Diazepam is suggested if treatment is necessary. It has been reported to rarely cause a variety of other CNS effects (mild CNS effects to blindness and death). Ketamine has been documented to cause hyperthermia in cats; low doses of acepromazine (0.01 – 0.02 mg/kg IV) may alleviate this effect. Anecdotal reports of ketamine causing acute CHF in cats with mild to moderate heart disease have been reported.
+
+		Pain after IM injection may occur.
+
+		To reduce the incidence of hypersalivation and other autonomic signs, atropine or glycopyrrolate is sometimes administered.", route_of_admin: 3, pronunciation: "kee-ta-meen"
+	},
 #   {
 # 		name: "Ketoconazole, Systemic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
@@ -4369,9 +4377,17 @@ Drug.create([
 # 	},
 #   {name: "Propionibacterium acnes Injection", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
-#   {
-# 		name: "Propofol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-# 	},
+  {
+		name: "Propofol", commercial_name: "PropoFlo", klass: "Injectable Anesthetic", category: "Systemic Drug", concentration: 10, adverse: "Transient respiratory depression is common but usually clinically tolerable. However, there is a relatively high incidence of apnea with resultant cyanosis if propofol is given too rapidly; it should be given slowly (25% of the calculated dose every 30 seconds until desired effect). Treat with assisted ventilation until spontaneous ventilation resumes.
+
+		Propofol has been documented to cause histamine release in some patients and anaphylactoid reactions (rare) have been noted in humans. Propofol has direct myocardial depressant properties and resultant arterial hypotension has been reported.
+
+		Occasionally, dogs may exhibit seizure-like clinical signs (paddling, opisthotonus, myoclonic twitching) during induction that if persistent, may be treated with intravenous diazepam. Propofol may have both anticonvulsant and seizure-causing properties. It should be used with caution in patients with a history of, or active seizure disorders, but some clinicians believe, however, that propofol is actually more appropriate to use in seizure patients or in high seizure-risk procedures (e.g., myelography) than is thiopental.
+
+		When used repeatedly or as a prolonged CRI in cats, increased Heinz body production, slowed recoveries, anorexia, lethargy, malaise, and diarrhea have been noted, but do not occur commonly. Consecutive use in dogs appears to be safe.
+
+		Pain upon injection has been reported in humans, but does not appear to be a clinically significant problem for dogs or cats when using the macroemulsion products. Microemulsions of propofol (e.g., PropoClear®) may be associated with pain on injection (Michou et al. 2012), especially with repeated administration (Minghella et al. 2010). Extravasation of propofol injection is not irritating nor does it cause tissue sloughing.", route_of_admin: 1, pronunciation: "proe-po-fole"
+	}
 #   {
 # 		name: "Propranolol HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},

@@ -83,6 +83,8 @@ rails g scaffold risk asa:integer temperament:string bcs:integer breed:string co
 rails g scaffold patient_procedure procedure:belongs_to patient:belongs_to
 
 rails g scaffold protocol_drug dose:decimal additional_analgesic:integer drug:belongs_to protocol:belongs_to
+
+rails g scaffold clinical_dose min:integer max:integer drug:belongs_to
  ```
 
 ----------------------------------------------------------------------------------------------------------------------------------
@@ -111,3 +113,21 @@ rails g scaffold protocol_drug dose:decimal additional_analgesic:integer drug:be
 * sc = "Subcutaneous"
 * po = "Per os"
 * inh = "Inhalational"
+
+---Formulas/Variables---
+mg = "milligrams"
+kg = "kilograms"
+ml = "milliliters"
+
+"concentration" (mg/ml) [CONSTANT] - drug amount (mg) per 1 ml of suspension
+
+"clinical_dose" (mg/kg) [CONSTANT] - Industry standard (can be species specific)
+  "min"(mg/kg) - lowest clinical_dose
+  "max"(mg/kg) - highest clinical_dose
+
+
+"dose"(mg/kg) = ([clinical_dose] * patients weight (kg))
+
+"amount"(mg) = dose in mg
+
+"volume" (ml) = (amount / concentration)

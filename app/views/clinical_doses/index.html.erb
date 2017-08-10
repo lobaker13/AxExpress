@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Clinical Doses</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Min</th>
+      <th>Max</th>
+      <th>Drug</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @clinical_doses.each do |clinical_dose| %>
+      <tr>
+        <td><%= clinical_dose.min %></td>
+        <td><%= clinical_dose.max %></td>
+        <td><%= clinical_dose.drug %></td>
+        <td><%= link_to 'Show', clinical_dose %></td>
+        <td><%= link_to 'Edit', edit_clinical_dose_path(clinical_dose) %></td>
+        <td><%= link_to 'Destroy', clinical_dose, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Clinical Dose', new_clinical_dose_path %>

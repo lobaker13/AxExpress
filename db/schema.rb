@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170807184745) do
+ActiveRecord::Schema.define(version: 20170810183050) do
 
   create_table "breeds", force: :cascade do |t|
     t.string "name"
@@ -26,6 +26,15 @@ ActiveRecord::Schema.define(version: 20170807184745) do
     t.string "procedure_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "clinical_doses", force: :cascade do |t|
+    t.integer "min"
+    t.integer "max"
+    t.integer "drug_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["drug_id"], name: "index_clinical_doses_on_drug_id"
   end
 
   create_table "drugs", force: :cascade do |t|

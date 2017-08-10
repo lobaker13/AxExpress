@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :clinical_doses
   resources :protocol_drugs
   resources :patient_procedures
   resources :risks
@@ -13,4 +14,5 @@ Rails.application.routes.draw do
   devise_for :users, controllers: {
         registrations: 'users/registrations'
       }
+
 end
