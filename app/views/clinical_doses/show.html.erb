@@ -1,18 +1,13 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Min:</strong>
-  <%= @clinical_dose.min %>
-</p>
-
-<p>
-  <strong>Max:</strong>
-  <%= @clinical_dose.max %>
+  <strong>Suggested Dose Range:</strong>
+  <%= @clinical_dose.average %>
 </p>
 
 <p>
   <strong>Drug:</strong>
-  <%= @clinical_dose.drug %>
+  <%= @clinical_dose.drug.name %>
 </p>
 
 <%= link_to 'Edit', edit_clinical_dose_path(@clinical_dose) %> |

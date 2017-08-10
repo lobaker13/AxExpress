@@ -114,6 +114,23 @@ rails g scaffold clinical_dose min:integer max:integer drug:belongs_to
 * po = "Per os"
 * inh = "Inhalational"
 
+1 = iv (base)
+2 = im (base)
+3 = iv,im
+4 = sc (base)
+5 = iv,sc
+6 = im,sc
+7 = iv,im,sc
+8 = po (base)
+9 = iv,po
+10 = im,po
+11 = iv,im,po
+12 = sc,po
+13 = iv,sc,po
+14 = im,sc,po
+15 = iv,im,sc,po
+16 = inh (base)
+17-32 etc.
 ---Formulas/Variables---
 mg = "milligrams"
 kg = "kilograms"

@@ -29,9 +29,10 @@ ActiveRecord::Schema.define(version: 20170810183050) do
   end
 
   create_table "clinical_doses", force: :cascade do |t|
-    t.integer "min"
-    t.integer "max"
+    t.decimal "min"
+    t.decimal "max"
     t.integer "drug_id"
+    t.integer "species_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["drug_id"], name: "index_clinical_doses_on_drug_id"

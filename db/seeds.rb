@@ -2636,17 +2636,17 @@ Procedure.create([
 ])
 
 Drug.create([
-# 	{
-# 		name: "Acarbose", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-# 	},
+	# {
+	# 	name: "Acarbose", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+	# },
 	{
 		name: "Acepromazine Maleate", commercial_name: "ACE" , klass: "Phenothiazine Sedative/Tranquilizer", category: "Systemic Drug", concentration: 10, adverse: "Acepromazine’s effect on blood pressure (hypotension) is well described and an important consideration in therapy. This effect is thought mediated by both central mechanisms and through the alpha-adrenergic actions of the drug. Cardiovascular collapse (secondary to bradycardia and hypotension) has been described in all major species. Dogs may be more sensitive to these effects than other animals.
 
-		Acepromazine has been shown to decrease tear production in cats (Ghaffari et al. 2010).", route_of_admin: 3, pronunciation: "(ase-pro-ma-zeen)"
+		Acepromazine has been shown to decrease tear production in cats (Ghaffari et al. 2010).", route_of_admin: 3, pronunciation: "ase-pro-ma-zeen"
 	},
-# 	{
-# 		name: "Acetaminophen", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-# 	},
+	# {
+	# 	name: "Acetaminophen", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+	# },
 # 	{
 # 		name: "Acetazolamide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
@@ -2694,9 +2694,15 @@ Drug.create([
 # 	{
 # 		name: "Alendronate Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
-# 	{
-# 		name: "Alfaxalone", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-# 	},
+	{
+		name: "Alfaxalone", commercial_name: "Alfaxan", klass: "Intravenous Anesthetic", category: "Systemic Drug", concentration: 10, adverse: "Alfaxalone has a high therapeutic index and for a general anesthetic agent it is relatively safe; respiratory depression and apnea are the biggest concerns and can be exacerbated depending on which premed is used. In clinical studies, 44% of dogs and 19% of cats experienced post-induction apnea (defined as the cessation of breathing for 30 seconds or more). The mean duration of apnea in these animals was 100 seconds in dogs and 60 seconds in cats. Give the drug IV slowly while closely monitoring the patient, stopping administration and placing an endotracheal tube when the patient is sufficiently anesthetized. Supplemental oxygen supply is advisable. Cardiac arrhythmias may occur, but are thought to occur primarily due to hypoxemia/hypercapnia; O2 therapy is recommended as the primary treatment, followed by appropriate cardiotherapy if required.
+
+		Alfaxalone's cardiodepressant effects in conjunction with inhalant anesthetics' vasodilatory effects can cause hypotension. Transient hypertension can also be noted possibly due to increased sympathetic activity.
+
+		Hypothermia during and post anesthesia is likely. External heat sources and monitoring of patient core body temperature is recommended.
+
+		Excitement during recovery can occur (disorientation, nervousness, paddling, muscle twitching, violent movements). Sedative drugs used in combination with alfaxalone can improve recovery (Quandt 2009) and especially in cats, recovery should preferably be in a quiet, darkened room (Nieuwendijk 2011).", route_of_admin: 3, pronunciation: "al-fax-ah-lone"
+	},
 # 	{
 # 		name: "Alfentanil HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
@@ -2775,8 +2781,9 @@ Drug.create([
 # 	{
 # 		name: "Antifungals", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
-# 	{name: "Antiparasitic Preparations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-# 	},
+		# {
+		# 	name: "Antiparasitic Preparations", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
+		# },
 # 	{
 # 		name: "Antiseptic Agents", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
@@ -2816,8 +2823,9 @@ Drug.create([
 # 	{
 # 		name: "Atracurium Besylate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
-# 	{name: "Atropine Sulfate", commercial_name: "", klass: "Anticholinergic", category: "Systemic Drug", concentration: nil, adverse: "", route_of_admin: nil,  pronunciation: "(ah-troe-peen suhl-fate)"
-# 	},
+	{
+		name: "Atropine Sulfate", commercial_name: "", klass: "Anticholinergic", category: "Systemic Drug", concentration: 0.54, adverse: "Adverse effects are basically extensions of the drug’s pharmacologic effects and are generally dose related.At usual doses, effects tend to be mild in relatively healthy patients. The more severe effects listed tend to occur with high or toxic doses. GI effects can include dry mouth (xerostomia), increased viscosity of secretions, dysphagia, constipation, vomiting, and thirst.Genitourinary effects may include urinary retention or hesitancy. CNS effects may include stimulation, drowsiness, ataxia, seizures, respiratory depression, etc.", route_of_admin: 3,  pronunciation: "ah-troe-peen suhl-fate"
+	},
 # 	{name: "Atropine Sulfate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
 # 	{
@@ -2927,9 +2935,9 @@ Drug.create([
 # 	},
 #   {name: "Butaphosphan with Cyanocobalamin", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
-#   {
-# 		name: "Butorphanol Tartrate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-# 	},
+  {
+		name: "Butorphanol Tartrate", commercial_name: "Torbugesic", klass: "Opiate Partial Agonist", category: "Systemic Drug", concentration: 10, adverse: "Adverse effects reported in dogs/cats include sedation, excitement, respiratory depression, ataxia, anorexia or diarrhea (rarely). Adverse effects may be less severe than those seen with pure agonists.", route_of_admin: 7, pronunciation: "byoo-tor-fa-nol"
+	},
 #   {
 # 		name: "Cabergoline", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
@@ -3251,7 +3259,7 @@ Drug.create([
 #   {name: "Dexamethasone Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
   {
-		name: "Dexmedetomidine", commercial_name: "Dexdomitor", klass: "Alpha-2-Adrenergic Agonsit", category: "Systemic Drug", concentration: nil, adverse: "The adverse effects reported with medetomidine or dexmedetomidine are essentially extensions of their pharmacologic effects including bradycardia, vasoconstriction, muscle tremors, transient hypertension, reduced tear production, occasional arrhythmias (2nd degree AV block, Supraventricular Tachycardia [SVT], ventricular escape beats, Premature Ventricular Contractions (PVCs), decreased respiration, hypothermia, urination, vomiting, hyperglycemia, and pain on injection (IM). Rare effects that have been reported include: prolonged sedation, paradoxical excitation, hypersensitivity, pulmonary edema, apnea, and death from circulatory failure. Adverse effects that require treatment can generally be alleviated with atipamezole; however, analgesic effects will also be reversed.", route_of_admin: 4, pronunciation: "deks-mee-deh-toe-mih-deen"
+		name: "Dexmedetomidine", commercial_name: "Dexdomitor", klass: "Alpha-2-Adrenergic Agonsit", category: "Systemic Drug", concentration: 0.5, adverse: "The adverse effects reported with medetomidine or dexmedetomidine are essentially extensions of their pharmacologic effects including bradycardia, vasoconstriction, muscle tremors, transient hypertension, reduced tear production, occasional arrhythmias (2nd degree AV block, Supraventricular Tachycardia [SVT], ventricular escape beats, Premature Ventricular Contractions (PVCs), decreased respiration, hypothermia, urination, vomiting, hyperglycemia, and pain on injection (IM). Rare effects that have been reported include: prolonged sedation, paradoxical excitation, hypersensitivity, pulmonary edema, apnea, and death from circulatory failure. Adverse effects that require treatment can generally be alleviated with atipamezole; however, analgesic effects will also be reversed.", route_of_admin: 3, pronunciation: "deks-mee-deh-toe-mih-deen"
 	},
 #   {
 # 		name: "Dexpanthenol", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
@@ -3475,8 +3483,9 @@ Drug.create([
 #   {
 # 		name: "Fenoldopam", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
-#   {name: "Fentanyl Citrate, Injection", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-# 	},
+  {
+		name: "Fentanyl Citrate, Injection", commercial_name: "Sublimaze", klass: "Opioid ", category: "Systemic Drug", concentration: 0.05, adverse: "Dose-related respiratory, CNS and circulatory depression (bradycardia) are the primary adverse effects with fentanyl injection. Hypothermia is possible in dogs. When fentanyl is used intraoperatively, anticholinergic agents may be required to treat bradycardia. Dogs and cats appear less prone than humans but are not immune to opiate-induced respiratory depression. In a study done in normal dogs, concurrent administration of fentanyl and isoflurane resulted in significant decreases in mean arterial blood pressure, heart rate, and cardiac index and a significant increase in PaCO2. All except PaCO2 retuned to pre-treatment levels with time (Keating et al. 2013). Dysphoria has been reported in approximately 25% of dogs treated with fentanyl (IV CRI) post-operatively (Becker et al. 2013).", route_of_admin: 1, pronunciation: "fen-ta-nil"
+	},
 #   {name: "Fentanyl Transdermal Solution", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
 #   {name: "Fentanyl, Transdermal Patch", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
@@ -3643,18 +3652,18 @@ Drug.create([
 # 	},
 #   {name: "Hydrogen Peroxide 3% (Oral)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
-  	{
-			name: "Hydromorphone", commercial_name: "Dilaudid", klass: "Opiate Agonist", category: "Systemic Drug", concentration: 2, adverse: "Hydromorphone has a similar adverse effect profile to oxymorphone or morphine in dogs and cats. In dogs, vomiting, sedation, panting, whining/vocalization, and defecation can be noted. A randomized clinical study in dogs, concluded that maropitant given at 1 mg/kg SC 1-hour prior to, or 2 mg/kg PO at least two-hours prior to hydromorphone (0.1 mg/kg IM) prevented vomiting (Kraus 2013). Vomiting, nausea and defecation reportedly may occur more frequently after SC dosing versus IV dosing. CNS depression may be greater than desired, particularly when treating moderate to severe pain. In dogs, constant rate IV infusions of >0.05 mg/kg/hr administered for more than 12 hours may cause sedation and adverse effects severe enough to require reducing the rate (Hansen 2008).
+  {
+		name: "Hydromorphone", commercial_name: "Dilaudid", klass: "Opiate Agonist", category: "Systemic Drug", concentration: 2, adverse: "Hydromorphone has a similar adverse effect profile to oxymorphone or morphine in dogs and cats. In dogs, vomiting, sedation, panting, whining/vocalization, and defecation can be noted. A randomized clinical study in dogs, concluded that maropitant given at 1 mg/kg SC 1-hour prior to, or 2 mg/kg PO at least two-hours prior to hydromorphone (0.1 mg/kg IM) prevented vomiting (Kraus 2013). Vomiting, nausea and defecation reportedly may occur more frequently after SC dosing versus IV dosing. CNS depression may be greater than desired, particularly when treating moderate to severe pain. In dogs, constant rate IV infusions of >0.05 mg/kg/hr administered for more than 12 hours may cause sedation and adverse effects severe enough to require reducing the rate (Hansen 2008).
 
-			Dose related respiratory depression is possible and more likely during general anesthesia. Panting (may occur more often than with oxymorphone) and cough suppression (may be of benefit) can occur.
+		Dose related respiratory depression is possible and more likely during general anesthesia. Panting (may occur more often than with oxymorphone) and cough suppression (may be of benefit) can occur.
 
-			Secondary to enhanced vagal tone, hydromorphone can cause bradycardia. This apparently occurs on par with morphine or oxymorphone.
+		Secondary to enhanced vagal tone, hydromorphone can cause bradycardia. This apparently occurs on par with morphine or oxymorphone.
 
-			Hydromorphone may cause histamine release that, while significantly less then with morphine and usually clinically insignificant, may be significant in critically ill animals.
+		Hydromorphone may cause histamine release that, while significantly less then with morphine and usually clinically insignificant, may be significant in critically ill animals.
 
-			Constipation is possible with chronic dosing.
+		Constipation is possible with chronic dosing.
 
-			In cats, opioids may cause excitement and increase body temperature. One study done in eight cats showed that hydromorphone, morphine, butorphanol, and buprenorphine all cause an increase in body temperature and that hydromorphone increased body temperature equivalently to those other drugs. The increased body temperature in all of the experimental treatments was self-limiting, and the majority returned to normal within 5 hours. No apparent morbidity or mortality was noted. Administration of ketamine or isoflurane in addition to hydromorphone did not produce a clinically relevant increase in body temperature compared with that of administration of hydromorphone alone (Posner et al. 2010). Should hyperthermia occur, naloxone has been used to rapidly reduce body temperature in cats.", route_of_admin: 7, pronunciation: "(hye-droe-mor-fone)"
+		In cats, opioids may cause excitement and increase body temperature. One study done in eight cats showed that hydromorphone, morphine, butorphanol, and buprenorphine all cause an increase in body temperature and that hydromorphone increased body temperature equivalently to those other drugs. The increased body temperature in all of the experimental treatments was self-limiting, and the majority returned to normal within 5 hours. No apparent morbidity or mortality was noted. Administration of ketamine or isoflurane in addition to hydromorphone did not produce a clinically relevant increase in body temperature compared with that of administration of hydromorphone alone (Posner et al. 2010). Should hyperthermia occur, naloxone has been used to rapidly reduce body temperature in cats.", route_of_admin: 7, pronunciation: "(hye-droe-mor-fone)"
 	},
 #   {name: "Hydroxychloroquine Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
@@ -3742,7 +3751,7 @@ Drug.create([
   {
 		name: "Isoflurane", commercial_name: "Isoflo", klass: "General Anesthetic, Inhalant", category: "Systemic Drug", concentration: nil, adverse: "At usual concentrations, hypotension secondary to vasodilation may occur and is considered to be dose related. Hypotension usually responds to fluids, but profound hypotension may require the use of vasopressors. A study in dogs, found that hetastarch was superior to LRS for treating isoflurane-induced hypotension (Aarnes et al. 2009). While cardiodepression is usually not clinically significant at doses causing surgical planes of anesthesia, it can occur. Arrhythmias have rarely been reported.
 
-		Dose-dependent respiratory depression, and GI effects (nausea, vomiting, ileus) have been reported", route_of_admin: nil, pronunciation: "eye-soe-flure-ane"
+		Dose-dependent respiratory depression, and GI effects (nausea, vomiting, ileus) have been reported", route_of_admin: 16, pronunciation: "eye-soe-flure-ane"
 	},
 #   {
 # 		name: "Isoniazid (INH)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
@@ -3835,8 +3844,11 @@ Drug.create([
 #   {
 # 		name: "Levothyroxine Sodium", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
-#   {name: "Lidocaine HCl (I.V.; Systemic)", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-# 	},
+  {
+		name: "Lidocaine HCl (I.V.; Systemic)", commercial_name: "Xylocaine", klass: "Antiarrhythmic, Local Anesthetic", category: "Systemic Drug", concentration: 20, adverse: "At usual doses and if the serum level remains within the proposed therapeutic range (1-5 micrograms/mL), serious adverse reactions are quite rare. The most common adverse effects reported are dose related (serum level) and mild. CNS signs include drowsiness, depression, ataxia, muscle tremors, etc. Nausea and vomiting may occur, but are usually transient. Adverse cardiac effects generally only occur at high plasma concentrations and are usually associated with PR and QRS interval prolongation and QT interval shortening. Lidocaine may increase ventricular rates if used in patients with atrial fibrillation. If an IV bolus is given too rapidly, hypotension may occur. Horses are less sensitive than other species to lidocaine’s adverse cardiovascular effects.
+
+		Do NOT use the product that contains epinephrine intravenously.", route_of_admin: nil, pronunciation: "lye-doe-kane"
+	},
 #   {
 # 		name: "Lidocaine, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
@@ -4015,9 +4027,13 @@ Drug.create([
 #   {
 # 		name: "Miconazole, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
-#   {
-# 		name: "Midazolam HCl", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
-# 	},
+  {
+		name: "Midazolam HCl", commercial_name: "Versed", klass: "Parenteral Benzodiazepine", category: "Systemic Drug", concentration: 5, adverse: "The primary concern using midazolam in veterinary patients is the possibility of respiratory depression.
+
+		In dogs, after morphine/acepromazine pre-op, midazolam given at 0.2 mg/kg IV prior to propofol anesthesia caused excitement in some patients (Covey-Crump et al. 2008) , (Hopkins et al. 2014).
+
+		Few adverse effects have been reported in human patients receiving midazolam. Most frequently, effects on respiratory rate, cardiac rate and blood pressure have been reported. Respiratory depression has been reported in patients who have received narcotics or have COPD. The following adverse effects have been reported in >1%, but <5% of patients receiving midazolam: pain on injection, local irritation, headache, nausea, vomiting, and hiccups.", route_of_admin: 7, pronunciation: "mid-ay-zoe-lam"
+	},
 #   {
 # 		name: "Milbemycin Oxime", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
@@ -4054,8 +4070,15 @@ Drug.create([
 #   {
 # 		name: "Morantel Tartrate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
-#   {name: "Morphine Sulfate", commercial_name: "", klass: "Opiate Agonist", category: "Systemic Drug", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: "(mor-feen)"
-# 	},
+  {
+		name: "Morphine Sulfate", commercial_name: "", klass: "Opiate Agonist", category: "Systemic Drug", concentration: 15, adverse: "At usual doses, the primary concern is the effect the opioids have on respiratory function. Decreased tidal volume, depressed cough reflex, and the drying of respiratory secretions may all have a detrimental effect on a susceptible patient. Bronchoconstriction (secondary to histamine release?) following IV doses has been noted in dogs. Significant hypotension can occur if administered rapidly IV. Panting is often seen in dogs after morphine administration.
+
+		Cats may exhibit signs of hyperthermia.
+
+		Gastrointestinal effects may include: nausea, vomiting, and decreased intestinal peristalsis. Dogs may defecate after an initial dose of morphine, but this is not usually seen when used post-operatively. Horses exhibiting signs of mild colic may have their clinical signs masked by the administration of narcotic analgesics. In ferrets, morphine can induce nausea and vomiting and it is often avoided in this species.
+
+		The CNS effects of morphine are dose and species specific. Animals that are stimulated by morphine may elucidate changes in behavior (e.g., 'morphine mania' in cats, increased locomotor activity in horses, etc.), appear restless and, at very high doses, have convulsions. The CNS depressant effects seen in dogs may encumber the abilities of working animals.", route_of_admin: 7, pronunciation: "mor-feen"
+	},
 #   {name: "Morphine Sulfate Ophthalmic", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
 #   {
@@ -4797,4 +4820,139 @@ Drug.create([
 #   {
 # 		name: "Zonisamide", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	}
+])
+ClinicalDose.create([
+	# canine - 0, feline - 1, nil - both(non species specific)
+	{
+		max: 0.125,
+		min: 0.01,
+		# Ace
+		drug_id: 1
+	},
+	{
+		max: 4.5,
+		min: 1.5,
+		# Alfaxalone
+		drug_id: 2,
+		species_id: 0
+	},
+	{
+		max: 9.7,
+		min: 2.2,
+		# Alfaxalone
+		drug_id: 2,
+		species_id: 1
+	},
+	{
+		max: 0.02,
+		min: 0.01,
+		# Atropine
+		drug_id: 3,
+		species_id: nil
+	},
+	{
+		max: 0.5,
+		min: 0.1,
+		# Butorphanol
+		drug_id: 3,
+		species_id: nil
+	},
+	{
+		max: 0.01,
+		min: 0.001,
+		# Dexmedetomidine
+		drug_id: 4,
+		species_id: 0
+	},
+	{
+		max: 0.009,
+		min: 0.001,
+		# Dexmedetomidine
+		drug_id: 4,
+		species_id: 1
+	},
+	{
+		max: 0.05,
+		min: 0.001,
+		# Fentanyl
+		drug_id: 5,
+		species_id: nil
+	},
+	{
+		max: 0.2,
+		min: 0.1,
+		# Hydromorphone
+		drug_id: 6,
+		species_id: 0
+	},
+	{
+		max: 0.1,
+		min: 0.05,
+		# Hydromorphone
+		drug_id: 6,
+		species_id: 1
+	},
+	{
+		max: 5,
+		min: 2,
+		# Ketamine
+		drug_id: 8,
+		species_id: 0
+	},
+	{
+		max: 3,
+		min: 0.5,
+		# Ketamine
+		drug_id: 8,
+		species_id: 1
+	},
+	{
+		max: 4,
+		min: 2,
+		# Lidocaine
+		drug_id: 9,
+		species_id: 0
+	},
+	{
+		max: 0.5,
+		min: 0.25,
+		# Lidocaine
+		drug_id: 9,
+		species_id: 1
+	},
+	{
+		max: 0.3,
+		min: 0.1,
+		# Midazolam
+		drug_id: 10,
+		species_id: nil
+	},
+	{
+		max: 2,
+		min: 0.5,
+		# Morphine
+		drug_id: 11,
+		species_id: 0
+	},
+	{
+		max: 0.4,
+		min: 0.05,
+		# Morphine
+		drug_id: 11,
+		species_id: 1
+	},
+	{
+		max: 6,
+		min: 2,
+		# Propofol
+		drug_id: 12,
+		species_id: 0
+	},
+	{
+		max: 8,
+		min: 4,
+		# Propofol
+		drug_id: 12,
+		species_id: 1
+	}
 ])

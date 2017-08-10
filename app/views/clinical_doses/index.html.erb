@@ -5,8 +5,8 @@
 <table>
   <thead>
     <tr>
-      <th>Min</th>
-      <th>Max</th>
+      <th>Species</th>
+      <th>Suggested Dose Range</th>
       <th>Drug</th>
       <th colspan="3"></th>
     </tr>
@@ -15,9 +15,9 @@
   <tbody>
     <% @clinical_doses.each do |clinical_dose| %>
       <tr>
-        <td><%= clinical_dose.min %></td>
-        <td><%= clinical_dose.max %></td>
-        <td><%= clinical_dose.drug %></td>
+        <td><%= clinical_dose.species_output %>
+        <td><%= clinical_dose.range %></td>
+        <td><%= clinical_dose.drug.name %></td>
         <td><%= link_to 'Show', clinical_dose %></td>
         <td><%= link_to 'Edit', edit_clinical_dose_path(clinical_dose) %></td>
         <td><%= link_to 'Destroy', clinical_dose, method: :delete, data: { confirm: 'Are you sure?' } %></td>
