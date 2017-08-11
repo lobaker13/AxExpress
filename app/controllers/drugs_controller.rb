@@ -50,7 +50,7 @@ class DrugsController < ApplicationController
         format.json { render json: @drug.errors, status: :unprocessable_entity }
       end
     end
-
+  end
   # DELETE /drugs/1
   # DELETE /drugs/1.json
   def destroy
@@ -71,5 +71,5 @@ class DrugsController < ApplicationController
     def drug_params
       params.require(:drug).permit(:name, :commercial_name, :class, :category, :concentration, :adverse, :route_of_admin, :pronunciation)
     end
-  end
+
 end

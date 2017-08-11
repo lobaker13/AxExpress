@@ -37,6 +37,8 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'devise'
 gem 'simple_form'
 gem 'attr_bitwise'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+# source: https://github.com/wittydeveloper/attr_bitwise
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

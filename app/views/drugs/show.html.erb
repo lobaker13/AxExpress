@@ -1,44 +1,67 @@
-<p id="notice"><%= notice %></p>
+<div class="drugs_show_wrapper">
+  <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @drug.name %>
-</p>
+  <p>
+    <strong>Name</strong>
+    </br>
+    <%= @drug.name %>
+  </p>
 
-<p>
-  <strong>Commerical name:</strong>
-  <%= @drug.commercial_name %>
-</p>
+  <p>
+    <strong>Commerical name</strong>
+    </br>
+    <%= @drug.commercial_name %>
+  </p>
 
-<p>
-  <strong>Class:</strong>
-  <%= @drug.class %>
-</p>
+  <p>
+    <strong>Class</strong>
+    </br>
+    <%= @drug.class %>
+  </p>
 
-<p>
-  <strong>Category:</strong>
-  <%= @drug.category %>
-</p>
+  <p>
+    <strong>Category</strong>
+    </br>
+    <%= @drug.category %>
+  </p>
 
-<p>
-  <strong>Concentration:</strong>
-  <%= @drug.concentration %>
-</p>
+  <p>
+    <strong>Concentration</strong>
+    </br>
+    <%= @drug.concentration %> mg/ml
+  </p>
 
-<p>
-  <strong>Adverse:</strong>
-  <%= @drug.adverse %>
-</p>
+  <p>
+    <strong>Dose Range</strong>
+    </br>
+    <ul class="drug">
+      <!-- Loop to pull availiable helpers from clinical_dose to drugs, since drug "has_many" clinical doses -->
+    <% @drug.clinical_doses.each do |clinical_dose| %>
+      <li><%= clinical_dose.range %> mg/ml (<%= clinical_dose.species_output %>)</li>
+    <% end  %>
+  </ul>
+  </p>
 
-<p>
-  <strong>Route of admin:</strong>
-  <%= @drug.route_of_admin %>
-</p>
+  <p class="adverse">
+    <strong>Adverse Effects</strong>
+  </br>
+    <%= @drug.adverse %>
+  </p>
 
-<p>
-  <strong>Pronunciation:</strong>
-  <%= @drug.pronunciation %>
-</p>
+  <p>
+    <strong>Route of administration</strong>
+    </br>
+    <%= @drug.route_of_admin_expand %>
+  </p>
 
-<%= link_to 'Edit', edit_drug_path(@drug) %> |
-<%= link_to 'Back', drugs_path %>
+  <p>
+    <strong>Pronunciation</strong>
+    </br>
+    <%= @drug.pronunciation %>
+  </p>
+  <div class="crud">
+[  <%= link_to 'Edit', edit_drug_path(@drug) %> |
+  <%= link_to 'Back', drugs_path %> |
+  <%= link_to 'Literature' %> ]
+  </div>
+</div>

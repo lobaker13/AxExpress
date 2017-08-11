@@ -1,3 +1,91 @@
-<h1>Welcome home! Page!</h1>
-<%= link_to 'Sign In', new_user_session_path %>
-<%= link_to 'Sign Out', destroy_user_session_path, method: :delete %>
+
+<div id="body" class="home">
+  <!-- <%link_to 'Sign In', new_user_session_path %>
+  <% link_to 'Sign Out', destroy_user_session_path, method: :delete %> -->
+    <nav class="home">
+      <ul class="home">
+        <li>
+          <a href="#slide-1">
+            <span class="nav-icon"></span>
+            <span class="nav-label"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#slide-2">
+            <span class="nav-icon"></span>
+            <span class="nav-label"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#slide-3">
+            <span class="nav-icon"></span>
+            <span class="nav-label"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#slide-4">
+            <span class="nav-icon"></span>
+            <span class="nav-label">Sign Up</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="slides">
+      <div id="slide-1" class="slide">
+        <div class="slide__bg"></div>
+        <div class="slide__content">
+          <div class="slide__text">
+            <h1 id="slide-1-title" class"home">Oh Hi First Title</h1>
+            <p class="home">
+              Here is a little paragraph explaining that this is a paragraph. Pretty meta right? This is essentially the inception of text....a TINception if you will.
+            </p>
+          </div>
+          <div class="slide__image">
+              <img src="https://www.jamiesale-cartoonist.com/wp-content/uploads/cartoon-monkey-free.png"> </img>
+          </div>
+        </div>
+      </div>
+      <div id="slide-2" class="slide">
+        <div class="slide__bg"></div>
+        <div class="slide__content">
+          <div class="slide__text">
+            <h1 id="slide-2-title" class"home">Oh Hi Second Title</h1>
+            <p class="home">
+              Here is a little paragraph explaining that this is a paragraph. Pretty meta right?
+            </p>
+          </div>
+          <div class="slide__image">
+              <img src="https://www.jamiesale-cartoonist.com/wp-content/uploads/cartoon-monkey-free.png"> </img>
+          </div>
+        </div>
+      </div>
+      <div id="slide-3" class="slide">
+        <div class="slide__bg"></div>
+        <div class="slide__content">
+          <div class="slide__text">
+            <h1 id="slide-3-title" class"home">Oh Hi Third Title</h1>
+            <p class="home">
+              Here is a little paragraph explaining that this is a paragraph. Pretty meta right? This is essentially the inception of text....a TINception if you will.
+            </p>
+          </div>
+          <div class="slide__image">
+              <img src="https://www.jamiesale-cartoonist.com/wp-content/uploads/cartoon-monkey-free.png"> </img>
+          </div>
+        </div>
+      </div>
+      <div id="slide-4" class="slide">
+        <div class="slide__bg"></div>
+        <div class="slide__content">
+          <div class="slide__text">
+            <h1 id="slide-4-title" class"home">Oh Hi Last Title</h1>
+            <p class="home">
+              Here is a little paragraph explaining that this is a paragraph. Pretty meta right? This is essentially the inception of text....a TINception if you will.
+            </p>
+          </div>
+          <div class="slide__image">
+              <img src="https://www.jamiesale-cartoonist.com/wp-content/uploads/cartoon-monkey-free.png"> </img>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

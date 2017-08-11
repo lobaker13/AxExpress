@@ -1,3 +1,141 @@
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+// ------------Home NAV---------
+ul.home{
+  position: fixed;
+  z-index: 100;
+  bottom: 1em;
+  padding: 1em 5em 0 5em;
+  width: 100%;
+  display: none;
+  margin: auto;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.home li{
+  width:auto;
+  list-style: none;
+}
+
+.nav-icon{}
+
+.nav-label{}
+
+
+
+
+// -------------End  Home NAV--------
+#body.home {
+  display: block;
+  // overflow: hidden;
+  transform: translateZ(0px);
+}
+
+h1.home {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+}
+
+p.home {
+  display: block;
+
+  margin-bottom: 1.5em;
+}
+
+.slides {
+  position: absolute;
+  overflow-x: auto;
+  overflow-y: hidden;
+  perspective: 300px;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  position: relative;
+  margin-right: -.3em;
+  padding: 8% 0;
+}
+
+.slide__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+
+}
+
+.slide__content {
+  transform-style: preserve-3d;
+  max-width: 1200px;
+  margin: auto;
+  height: 100vh;
+  align-items: center;
+}
+
+.slide__text {
+  transform: translateZ(60px) scale(.8);
+  transform-origin: 100% 50%;
+  padding: 3%;
+  flex: 1;
+}
+
+.slide__image {
+  transform: translateZ(60px) scale(.8);
+  transform-origin: 100% 50%;
+  padding: 1%;
+  flex: 1;
+}
+
+.slide__image img {
+  max-width: 100px;
+  margin: auto;
+  width: 100%;
+  display: block;
+}
+
+
+#slide-1 .slide__bg {
+  background-image: repeating-linear-gradient( 90deg, rgb(102, 204, 102), rgb(102, 204, 102) 30px, rgb(92, 184, 92) 30px, rgb(92, 184, 92) 60px );
+}
+#slide-2 .slide__bg {
+  background-image: repeating-linear-gradient( 45deg, rgb(133, 173, 230), rgb(133, 173, 230) 30px, rgb(113, 153, 210) 30px, rgb(113, 153, 210) 60px );
+}
+#slide-3 .slide__bg {
+  background-image: repeating-linear-gradient( 90deg, rgb(245, 73, 35), rgb(245, 73, 35) 30px, rgb(209, 20, 20,) 30px, rgb(209, 20, 20,) 60px );
+}
+#slide-4 .slide__bg {
+  background-image: repeating-linear-gradient( -45deg, rgb(170, 61, 236), rgb(170, 61, 236) 30px, rgb(91, 28, 129) 30px, rgb(91, 28, 129) 60px );
+}
+
+
+
+.slide:nth-child(2n) .slide__bg {
+    transform: translateZ(59px) scale(.85);
+}
+
+.slide:nth-child(2n+1):not(:last-child) .slide__bg {
+    right: -25%;
+}
+
+.slide:nth-child(2n+1):not(:first-child) .slide__bg {
+    left: -25%;
+}
+
+.slide:nth-child(2n) .slide__bg {
+    transform: translateZ(59px) scale(.85);
+}

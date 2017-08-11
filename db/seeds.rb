@@ -3663,7 +3663,7 @@ Drug.create([
 
 		Constipation is possible with chronic dosing.
 
-		In cats, opioids may cause excitement and increase body temperature. One study done in eight cats showed that hydromorphone, morphine, butorphanol, and buprenorphine all cause an increase in body temperature and that hydromorphone increased body temperature equivalently to those other drugs. The increased body temperature in all of the experimental treatments was self-limiting, and the majority returned to normal within 5 hours. No apparent morbidity or mortality was noted. Administration of ketamine or isoflurane in addition to hydromorphone did not produce a clinically relevant increase in body temperature compared with that of administration of hydromorphone alone (Posner et al. 2010). Should hyperthermia occur, naloxone has been used to rapidly reduce body temperature in cats.", route_of_admin: 7, pronunciation: "(hye-droe-mor-fone)"
+		In cats, opioids may cause excitement and increase body temperature. One study done in eight cats showed that hydromorphone, morphine, butorphanol, and buprenorphine all cause an increase in body temperature and that hydromorphone increased body temperature equivalently to those other drugs. The increased body temperature in all of the experimental treatments was self-limiting, and the majority returned to normal within 5 hours. No apparent morbidity or mortality was noted. Administration of ketamine or isoflurane in addition to hydromorphone did not produce a clinically relevant increase in body temperature compared with that of administration of hydromorphone alone (Posner et al. 2010). Should hyperthermia occur, naloxone has been used to rapidly reduce body temperature in cats.", route_of_admin: 7, pronunciation: "hye-droe-mor-fone"
 	},
 #   {name: "Hydroxychloroquine Sulfate", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""
 # 	},
@@ -3847,7 +3847,7 @@ Drug.create([
   {
 		name: "Lidocaine HCl (I.V.; Systemic)", commercial_name: "Xylocaine", klass: "Antiarrhythmic, Local Anesthetic", category: "Systemic Drug", concentration: 20, adverse: "At usual doses and if the serum level remains within the proposed therapeutic range (1-5 micrograms/mL), serious adverse reactions are quite rare. The most common adverse effects reported are dose related (serum level) and mild. CNS signs include drowsiness, depression, ataxia, muscle tremors, etc. Nausea and vomiting may occur, but are usually transient. Adverse cardiac effects generally only occur at high plasma concentrations and are usually associated with PR and QRS interval prolongation and QT interval shortening. Lidocaine may increase ventricular rates if used in patients with atrial fibrillation. If an IV bolus is given too rapidly, hypotension may occur. Horses are less sensitive than other species to lidocaine’s adverse cardiovascular effects.
 
-		Do NOT use the product that contains epinephrine intravenously.", route_of_admin: nil, pronunciation: "lye-doe-kane"
+		Do NOT use the product that contains epinephrine intravenously.", route_of_admin: 1, pronunciation: "lye-doe-kane"
 	},
 #   {
 # 		name: "Lidocaine, Topical", commercial_name: "", klass: " ", category: "", concentration: nil, adverse: "", route_of_admin: nil, pronunciation: ""

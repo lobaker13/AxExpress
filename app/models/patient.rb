@@ -1,4 +1,8 @@
 class Patient < ApplicationRecord
+  belongs_to :breed
+  belongs_to :user
+  has_many :procedures, through: :patient_procedure
+
   @@sexes = { mi: "Male, intact",
               mn: "Male, neutered",
               fi: "Female, intact",
@@ -19,7 +23,16 @@ class Patient < ApplicationRecord
   def weight_kg
     "#{weight}" + "kg"
   end
-  belongs_to :breed
-  belongs_to :user
-  has_many :procedures, through: :patient_procedure
+
+  def dosing(drug, units = false)
+    clinical_dose = self.breed.clinical_dose(drug.id)
+    return nil unless clinical_dose
+    calc = clinical_dose.average * self.weight
+    units ? "#{calc} mg/kg" : calc
+  end
+
+  def volume(drug, units = false)
+    calc = dosing(drug) / drug.concentration
+    units ? "#{calc} ml" : calc
+  end
 end

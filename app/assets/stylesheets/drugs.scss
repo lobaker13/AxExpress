@@ -1,3 +1,32 @@
 // Place all the styles related to the drugs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.drugs_show_wrapper{
+  margin: 10px;
+
+    p {
+      text-align: center;
+      padding: 5px;
+    }
+
+    .adverse {
+      display: block;
+      margin:auto;
+      width: 50%;
+    }
+
+
+    strong {
+      font-family: "Spectral";
+      font-size: 20px;
+    }
+
+    .crud {
+      font-size: 20px;
+      text-align: center;
+    }
+
+    ul{
+      text-align: center;
+    }
+}
