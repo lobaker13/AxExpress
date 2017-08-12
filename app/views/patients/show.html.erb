@@ -40,6 +40,13 @@
   <%= @patient.user.dr_name%>
 </p>
 
+<p>
+  <strong>Previous Procedures:</strong>
+  <% @patient.patient_procedures.each do |patient_procedure| %>
+  <%= patient_procedure.procedure.name %>,  (<%= time_tag(patient_procedure.created_at) %>)
+  <% end %>
+</p>
+
 <%= link_to 'Edit', edit_patient_path(@patient) %> |
 <%= link_to 'Back', patients_path %> |
-<%= link_to 'New Procedure', new_patient_procedure_path %>
+<%= link_to 'New Procedure', new_patient_procedure_path(@patient)%>

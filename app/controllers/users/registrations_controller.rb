@@ -83,7 +83,7 @@ private
 # Be sure to update your create() and update() controller methods.
 
 def user_params
-  params.require(:user).permit(:fname, :lname, :username, :email, :password,)
+  params.require(:user).permit(:fname, :lname, :email, :password,)
 end
 
 

@@ -36,6 +36,7 @@ Breed.create([
 	{ name: "American Pit Bull Terrier",
 		species: :canine
 	},
+	# 10
 	{ name: "American Water Spaniel",
 		species: :canine
 	},
@@ -66,6 +67,7 @@ Breed.create([
 	{ name: "Basset Hound",
 		species: :canine
 	},
+	# 20
 	{ name: "Beagle",
 		species: :canine
 	},
@@ -96,6 +98,7 @@ Breed.create([
 	{ name: "Black and Tan Coonhound",
 		species: :canine
 	},
+	# 30
 	{ name: "Black Russian Terrier",
 		species: :canine
 	},
@@ -126,6 +129,7 @@ Breed.create([
 	{ name: "Boxer",
 		species: :canine
 	},
+	# 40
 	{ name: "Boykin Spaniel",
 		species: :canine
 	},
@@ -156,6 +160,7 @@ Breed.create([
 	{ name: "Canaan Dog",
 		species: :canine
 	},
+	# 50
 	{ name: "Cane Corso",
 		species: :canine
 	},
@@ -186,6 +191,7 @@ Breed.create([
 	{ name: "Chinook",
 		species: :canine
 	},
+	# 60
 	{ name: "Chow Chow",
 		species: :canine
 	},
@@ -216,6 +222,7 @@ Breed.create([
 	{ name: "Dandie Dinmont Terrier",
 		species: :canine
 	},
+	# 70
 	{ name: "Doberman Pinscher",
 		species: :canine
 	},
@@ -246,6 +253,7 @@ Breed.create([
 	{ name: "Finnish Lapphund",
 		species: :canine
 	},
+	# 80
 	{ name: "Finnish Spitz",
 		species: :canine
 	},
@@ -276,6 +284,7 @@ Breed.create([
 	{ name: "Glen of Imaal Terrier",
 		species: :canine
 	},
+	# 90
 	{ name: "Goldador",
 		species: :canine
 	},
@@ -306,6 +315,7 @@ Breed.create([
 	{ name: "Havanese",
 		species: :canine
 	},
+	# 100
 	{ name: "Ibizan Hound",
 		species: :canine
 	},
@@ -336,6 +346,7 @@ Breed.create([
 	{ name: "Japanese Chin",
 		species: :canine
 	},
+	# 110
 	{ name: "Korean Jindo Dog",
 		species: :canine
 	},
@@ -366,6 +377,7 @@ Breed.create([
 	{ name: "Lancashire Heeler",
 		species: :canine
 	},
+	# 120
 	{ name: "Leonberger",
 		species: :canine
 	},
@@ -396,6 +408,7 @@ Breed.create([
 	{ name: "Miniature Schnauzer",
 		species: :canine
 	},
+	# 130
 	{ name: "Mutt",
 		species: :canine
 	},
@@ -426,6 +439,7 @@ Breed.create([
 	{ name: "Old English Sheepdog",
 		species: :canine
 	},
+	# 140
 	{ name: "Otterhound",
 		species: :canine
 	},
@@ -456,6 +470,7 @@ Breed.create([
 	{ name: "Pointer",
 		species: :canine
 	},
+	# 150
 	{ name: "Polish Lowland Sheepdog",
 		species: :canine
 	},
@@ -486,6 +501,7 @@ Breed.create([
 	{ name: "Redbone Coonhound",
 		species: :canine
 	},
+	# 160
 	{ name: "Rhodesian Ridgeback",
 		species: :canine
 	},
@@ -516,6 +532,7 @@ Breed.create([
 	{ name: "Sealyham Terrier",
 		species: :canine
 	},
+	# 170
 	{ name: "Shetland Sheepdog",
 		species: :canine
 	},
@@ -546,6 +563,7 @@ Breed.create([
 	{ name: "Stabyhoun",
 		species: :canine
 	},
+	# 180
 	{ name: "Staffordshire Bull Terrier",
 		species: :canine
 	},
@@ -576,6 +594,7 @@ Breed.create([
 	{ name: "Treeing Walker Coonhound",
 		species: :canine
 	},
+	# 190
 	{ name: "Vizsla",
 		species: :canine
 	},
@@ -606,7 +625,7 @@ Breed.create([
 	{ name: "Yorkshire Terrier",
 		species: :canine
 	},
-
+	# 200
 	{ name: "Abyssinian",
 		species: :feline
 	},
@@ -637,6 +656,7 @@ Breed.create([
 	{ name: "Bombay",
 		species: :feline
 	},
+	# 210
 	{ name: "British Shorthair",
 		species: :feline
 	},
@@ -949,10 +969,37 @@ Patient.create([
 	{
 		fname: "Temperance",
 		lname: "Baker",
-		dob: nil,
-		sex: :fi,
+		dob: Date.parse('2011/06/18'),
+		sex: :fs,
 		weight: 22.7,
 		breed_id: 85,
+		user_id: 1
+	},
+	{
+		fname: "Fluffy",
+		lname: "Smith",
+		dob: Date.parse('2000/02/10'),
+		sex: :mn,
+		weight: 4.5,
+		breed_id: 199,
+		user_id: 1
+	},
+	{
+		fname: "Wishbone",
+		lname: "Jackson",
+		dob: Date.parse('2010/05/11'),
+		sex: :mn,
+		weight: 11.3,
+		breed_id: 235,
+		user_id: 1
+	},
+	{
+		fname: "Thackery",
+		lname: "Binx",
+		dob: Date.parse('2016/12/24'),
+		sex: :mi,
+		weight: 3.6,
+		breed_id: 108,
 		user_id: 1
 	}
 ])

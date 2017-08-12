@@ -148,3 +148,9 @@ ml = "milliliters"
 "amount"(mg) = dose in mg
 
 "volume" (ml) = (amount / concentration)
+
+Ex: In rails c
+```
+Patient.first.dosing(Drug.find_by_id(1), true)
+```
+Will output: "1.53225 mg/kg" through the dosing helper in the Patient model

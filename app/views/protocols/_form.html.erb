@@ -7,7 +7,7 @@
     <%= f.input :asa %>
     <%= f.input :bcs %>
     <%= f.input :alert %>
-    <%= f.association :patient %>
+    <%= f.select :patient_id, options_for_select(Patient.pluck( :fname, :id)) %>
   </div>
 
   <div class="form-actions">

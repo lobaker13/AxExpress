@@ -3,11 +3,17 @@
 
   <div class="form-inputs">
     <%= f.association :procedure %>
-    <%= f.select :patient_id, options_for_select(current_user.patients.pluck( :fname, :id)) %>
+    <% if params[:patient_id] %>
+      <%= f.input :patient_id, as: :hidden, input_html: { value: params[:patient_id] } %>
+    <% else %>
+      <%= f.association :patient, label_method: :full_name, value_method: :id %>
+    <% end %>
     <%# f.select :patient, options_for_select(Patient.all.map{|patient| [patient.full_name, patient.id]}) %>
   </div>
 
   <div class="form-actions">
     <%= f.button :submit %>
   </div>
+
+  <%= render 'risks/form', risk: Risk.new(@patient_procedure)%>
 <% end %>

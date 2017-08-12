@@ -1,6 +1,6 @@
 class RisksController < ApplicationController
   before_action :set_risk, only: [:show, :edit, :update, :destroy]
-
+  # before_action :set_patient
   # GET /risks
   # GET /risks.json
   def index
@@ -25,7 +25,6 @@ class RisksController < ApplicationController
   # POST /risks.json
   def create
     @risk = Risk.new(risk_params)
-
     respond_to do |format|
       if @risk.save
         format.html { redirect_to @risk, notice: 'Risk was successfully created.' }
@@ -63,6 +62,9 @@ class RisksController < ApplicationController
 
   private
     # Use callbacks to share common setup or constraints between actions.
+    # def set_patient
+    #   @patient = Risk.find(params[:patient_id])
+    # end
     def set_risk
       @risk = Risk.find(params[:id])
     end

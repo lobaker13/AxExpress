@@ -4,26 +4,84 @@
    padding: 0;
 }
 // ------------Home NAV---------
-ul.home{
+nav{
   position: fixed;
   z-index: 100;
   bottom: 1em;
   padding: 1em 5em 0 5em;
   width: 100%;
-  display: none;
+  // display: none;
   margin: auto;
   align-items: center;
-  left: 50%;
+  left: 46%;
+  // top: 50%;
   transform: translateX(-50%);
+}
+.home ul{
+  display: block;
+  // list-style-type: disc;
 }
 .home li{
   width:auto;
+  flex: 1;
+  display: inline-block;
   list-style: none;
+  margin: .5em;
+
+  // display:list-item;
+
+}
+  .nav-dot1{
+  display: block;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 35%;
+  bottom: -3em;
+  background-image:url("/assets/bone.png");
+  background-repeat: no-repeat;
+
+}
+.nav-dot2{
+display: block;
+width: 150px;
+height: 150px;
+position: absolute;
+left: 45%;
+bottom: -3em;
+background-image:url("/assets/bone.png");
+background-repeat: no-repeat;
 }
 
-.nav-icon{}
+.nav-dot3{
+display: block;
+width: 150px;
+height: 150px;
+position: absolute;
+left: 55%;
+bottom: -3em;
+background-image:url("/assets/bone.png");
+background-repeat: no-repeat;
+}
 
-.nav-label{}
+.nav-dot4{
+display: block;
+width: 150px;
+height: 150px;
+position: absolute;
+left: 65%;
+bottom: -3em;
+background-image:url("/assets/bone.png");
+background-repeat: no-repeat;
+}
+
+
+.nav-label{
+  display: block;
+  opacity: 0.5;
+  visibility: hidden;
+  transform: translateX(-10px);
+}
 
 
 
@@ -33,6 +91,7 @@ ul.home{
   display: block;
   // overflow: hidden;
   transform: translateZ(0px);
+  height: 100%;
 }
 
 h1.home {
@@ -110,30 +169,38 @@ p.home {
 
 
 #slide-1 .slide__bg {
-  background-image: repeating-linear-gradient( 90deg, rgb(102, 204, 102), rgb(102, 204, 102) 30px, rgb(92, 184, 92) 30px, rgb(92, 184, 92) 60px );
+  background-image:url("http://happytailsvetclinicwv.com/clients/19848/images/slideshows/61832/Vet1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #slide-2 .slide__bg {
-  background-image: repeating-linear-gradient( 45deg, rgb(133, 173, 230), rgb(133, 173, 230) 30px, rgb(113, 153, 210) 30px, rgb(113, 153, 210) 60px );
+  background-image:url("https://desktopwallpaperdownload.files.wordpress.com/2012/01/wallpaper-cat-dog-friends-full-hd-1920x1080.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #slide-3 .slide__bg {
-  background-image: repeating-linear-gradient( 90deg, rgb(245, 73, 35), rgb(245, 73, 35) 30px, rgb(209, 20, 20,) 30px, rgb(209, 20, 20,) 60px );
+  background-image:url("http://www.vetsforpets.org/wp-content/uploads/2014/05/vet-pet-bond.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #slide-4 .slide__bg {
-  background-image: repeating-linear-gradient( -45deg, rgb(170, 61, 236), rgb(170, 61, 236) 30px, rgb(91, 28, 129) 30px, rgb(91, 28, 129) 60px );
+  background-image:url("http://1.bp.blogspot.com/-FgySxUkNcjw/UdDy2cBn5FI/AAAAAAAAA0Y/UU5xB30rMH8/s1600/Dogs+and+Cats+-+common+Problems%252Cpets%252C+Cat%252C+pet%252C+dog%252C.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
 
 .slide:nth-child(2n) .slide__bg {
-    transform: translateZ(59px) scale(.85);
+    transform: translateZ(45px) scale(.95);
 }
 
 .slide:nth-child(2n+1):not(:last-child) .slide__bg {
-    right: -25%;
+    right: -17%;
 }
 
 .slide:nth-child(2n+1):not(:first-child) .slide__bg {
-    left: -25%;
+    left: -7%;
 }
 
 .slide:nth-child(2n) .slide__bg {

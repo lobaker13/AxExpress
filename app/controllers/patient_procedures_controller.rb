@@ -1,5 +1,6 @@
 class PatientProceduresController < ApplicationController
   before_action :set_patient_procedure, only: [:show, :edit, :update, :destroy]
+  before_action :set_risk
 
   # GET /patient_procedures
   # GET /patient_procedures.json
@@ -24,8 +25,9 @@ class PatientProceduresController < ApplicationController
   # POST /patient_procedures
   # POST /patient_procedures.json
   def create
-    @patient_procedure = PatientProcedure.new(patient_procedure_params)
 
+    @patient_procedure = PatientProcedure.new(patient_procedure_params)
+    @patient_procedure.risk_id = @risk.id
     respond_to do |format|
       if @patient_procedure.save
         format.html { redirect_to @patient_procedure, notice: 'Patient procedure was successfully created.' }
@@ -63,6 +65,10 @@ class PatientProceduresController < ApplicationController
 
   private
     # Use callbacks to share common setup or constraints between actions.
+    def set_risk
+      @risk = Risk.find(params[:risk_id])
+    end
+
     def set_patient_procedure
       @patient_procedure = PatientProcedure.find(params[:id])
     end

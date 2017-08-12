@@ -1,31 +1,29 @@
 
-<div id="body" class="home">
-  <!-- <%link_to 'Sign In', new_user_session_path %>
-  <% link_to 'Sign Out', destroy_user_session_path, method: :delete %> -->
-    <nav class="home">
+<!-- <div id="body" class="home"> -->
+    <nav>
       <ul class="home">
         <li>
           <a href="#slide-1">
-            <span class="nav-icon"></span>
-            <span class="nav-label"></span>
+            <span class="nav-dot1"></span>
+            <span class="nav-label">Slide 1</span>
           </a>
         </li>
         <li>
           <a href="#slide-2">
-            <span class="nav-icon"></span>
-            <span class="nav-label"></span>
+            <span class="nav-dot2"></span>
+            <span class="nav-label">Slide 2</span>
           </a>
         </li>
         <li>
           <a href="#slide-3">
-            <span class="nav-icon"></span>
-            <span class="nav-label"></span>
+            <span class="nav-dot3"></span>
+            <span class="nav-label">Slide 3</span>
           </a>
         </li>
         <li>
           <a href="#slide-4">
-            <span class="nav-icon"></span>
-            <span class="nav-label">Sign Up</span>
+            <span class="nav-dot4"></span>
+            <span class="nav-label">Slide 4</span>
           </a>
         </li>
       </ul>
@@ -37,11 +35,13 @@
           <div class="slide__text">
             <h1 id="slide-1-title" class"home">Oh Hi First Title</h1>
             <p class="home">
-              Here is a little paragraph explaining that this is a paragraph. Pretty meta right? This is essentially the inception of text....a TINception if you will.
+              <%= link_to 'Sign In', new_user_session_path %>
+              <%= link_to 'Sign Out', destroy_user_session_path, method: :delete %>
+              <%= link_to 'Create an Account', new_user_registration_path %>
             </p>
           </div>
           <div class="slide__image">
-              <img src="https://www.jamiesale-cartoonist.com/wp-content/uploads/cartoon-monkey-free.png"> </img>
+              <!-- <img src="https://www.jamiesale-cartoonist.com/wp-content/uploads/cartoon-monkey-free.png"> </img> -->
           </div>
         </div>
       </div>
@@ -55,7 +55,7 @@
             </p>
           </div>
           <div class="slide__image">
-              <img src="https://www.jamiesale-cartoonist.com/wp-content/uploads/cartoon-monkey-free.png"> </img>
+              <!-- <img src="https://www.jamiesale-cartoonist.com/wp-content/uploads/cartoon-monkey-free.png"> </img> -->
           </div>
         </div>
       </div>
@@ -69,7 +69,7 @@
             </p>
           </div>
           <div class="slide__image">
-              <img src="https://www.jamiesale-cartoonist.com/wp-content/uploads/cartoon-monkey-free.png"> </img>
+              <!-- <img src="https://www.jamiesale-cartoonist.com/wp-content/uploads/cartoon-monkey-free.png"> </img> -->
           </div>
         </div>
       </div>
@@ -83,9 +83,9 @@
             </p>
           </div>
           <div class="slide__image">
-              <img src="https://www.jamiesale-cartoonist.com/wp-content/uploads/cartoon-monkey-free.png"> </img>
+              <!-- <img src="https://www.jamiesale-cartoonist.com/wp-content/uploads/cartoon-monkey-free.png"> </img> -->
           </div>
         </div>
       </div>
     </div>
-</div>
+<!-- </div> -->

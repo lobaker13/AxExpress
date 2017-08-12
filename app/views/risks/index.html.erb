@@ -19,6 +19,7 @@
     </tr>
   </thead>
 
+  <% if @risk_warnings = !nil %>
   <tbody>
     <% @risks.each do |risk| %>
       <tr>
@@ -31,11 +32,12 @@
         <td><%= risk.heart_murmur %></td>
         <td><%= risk.procedure %></td>
         <td><%= risk.history %></td>
-        <td><%= risk.patient_procedure %></td>
+        <td><%= risk.patient_procedure.procedure.name %></td>
         <td><%= link_to 'Show', risk %></td>
         <td><%= link_to 'Edit', edit_risk_path(risk) %></td>
         <td><%= link_to 'Destroy', risk, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
+      <% end %>
     <% end %>
   </tbody>
 </table>

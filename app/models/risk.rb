@@ -2,7 +2,7 @@ class Risk < ApplicationRecord
   belongs_to :patient_procedure
   validates :bcs, inclusion: 1..9
   validates :asa, inclusion: 1..5
-  validates :heart_murmur, inclusion: 1..5
+  # validates :heart_murmur, inclusion: 1..5
   def warnings
     risks = []
     risks.push("ASA") if asa_risk >= 3
@@ -17,6 +17,10 @@ class Risk < ApplicationRecord
     risk.push("comorbidities") if comorbidities =~ /Liver Disease|Renal Disease|Cardiac Disease|Diabetes/
     risks
   end
+
+# helper to flag more alerts
+# def method_name
+# end
 
   def asa_risk
     (1..5)

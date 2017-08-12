@@ -1,6 +1,6 @@
 class PatientsController < ApplicationController
   before_action :set_patient, only: [:show, :edit, :update, :destroy]
-
+  # before_action :set_risk
   # GET /patients
   # GET /patients.json
   def index
@@ -63,6 +63,10 @@ class PatientsController < ApplicationController
 
   private
     # Use callbacks to share common setup or constraints between actions.
+    # def set_risk
+    #   @risk = Risk.find(params[:risk_id])
+    # end
+
     def set_patient
       @patient = Patient.find(params[:id])
     end
