@@ -1,25 +1,24 @@
 <div class="show_wrapper">
 <p id="notice"><%= notice %></p>
 
-<% if @patient_procedure.risk.warnings.include? "procedure" %>
 <p>
   <strong>Procedure:</strong>
   <%= @patient_procedure.procedure.name %>
 </p>
-<% end %>
+
 <p>
   <strong>Patient:</strong>
   <%= @patient_procedure.patient.full_name %>
 </p>
 
-<% if @patient_procedure.risk.warnings.include? "ASA" %>
+<% if !@patient_procedure.risk.nil? && @patient_procedure.risk.warnings.include?("ASA") %>
 <p>
   <strong>ASA:</strong>
   <%= @patient_procedure.risk.asa %>
 </p>
 <% end %>
 <p>
-  <% if @patient_procedure.risk.warnings.include? "temperament" %>
+  <% if !@patient_procedure.risk.nil? && @patient_procedure.risk.warnings.include?("temperament") %>
   <strong>Temperament:</strong>
   <%= @patient_procedure.risk.temperament %>
   <% end %>
@@ -51,6 +50,7 @@
 </p>
 <div class="crud">
 <%= link_to 'Edit', edit_patient_procedure_path(@patient_procedure) %> |
-<%= link_to 'Back', patient_procedures_path %>
+<%= link_to 'Back', patient_procedures_path %> |
+<%= link_to 'Create Protocol', protocols_path('protocol[patient_id': @patient_procedure.patient_id, 'procedure_id': @patient_procedure.procedure_id ), method: :post %>
 </div>
 </div>

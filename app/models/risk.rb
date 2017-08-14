@@ -13,8 +13,8 @@ class Risk < ApplicationRecord
     risks.push(breed_risk) if breed_risk
     risks.push("age") if age <= 1 or age >= 1
     # add status to procedure table
-    risk.push("procedure") if self.patient_procedure.procedure.name == 1
-    risk.push("comorbidities") if comorbidities =~ /Liver Disease|Renal Disease|Cardiac Disease|Diabetes/
+    risks.push("procedure") if self.patient_procedure.procedure.name == 1
+    risks.push("comorbidities") if comorbidities =~ /Liver Disease|Renal Disease|Cardiac Disease|Diabetes/
     risks
   end
 
@@ -66,5 +66,9 @@ class Risk < ApplicationRecord
   #   case heart_murmur
   #   when
   #   end
+  end
+# To call on the class method defined above
+  def breed_risk
+    Risk.breed_risk self.patient_procedure.patient.breed.name
   end
 end

@@ -20,8 +20,9 @@
    padding-bottom: 200px;
    min-height: 1000px;
  }
-  h2{
+  h1, h2{
    text-align: center;
+   color:#d9c5a6
  }
  .simple_form {
   padding-top: 10px;
@@ -106,6 +107,20 @@ label.collection_check_boxes {
   vertical-align: top;
   color: #e2e8e4;
   margin-top: 20px;
+}
+.index_wrapper{
+  background-color: #006c84;
+  width: 50%;
+  margin: auto;
+  padding: 30px;
+  border-radius: 20px;
+  vertical-align: top;
+  color: #e2e8e4;
+  margin-top: 20px;
+  display: block;
+    th {
+      padding: 10px;
+    }
 }
 // edit/back buttons
 .crud {

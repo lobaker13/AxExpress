@@ -2,21 +2,21 @@
 
 <p>
   <strong>Weight:</strong>
-  <%= @protocol.weight %>
+  <%= @protocol.weight %> kg
 </p>
 
 <p>
   <strong>Age:</strong>
-  <%= @protocol.age %>
+  <%= @protocol.age %> yr
 </p>
 
 <p>
-  <strong>Asa:</strong>
+  <strong>ASA:</strong>
   <%= @protocol.asa %>
 </p>
 
 <p>
-  <strong>Bsc:</strong>
+  <strong>BCS:</strong>
   <%= @protocol.bcs %>
 </p>
 
@@ -27,7 +27,7 @@
 
 <p>
   <strong>Patient:</strong>
-  <%= @protocol.patient %>
+  <%= @protocol.patient.full_name %>
 </p>
 
 <%= link_to 'Edit', edit_protocol_path(@protocol) %> |

@@ -2,6 +2,11 @@
 
 <h1>Protocols</h1>
 
+<% @patients.each do |patient| %>
+
+<%= tag.h2 patient.full_name %>
+
+<% if patient.protocols.any? %>
 <table>
   <thead>
     <tr>
@@ -16,14 +21,14 @@
   </thead>
 
   <tbody>
-    <% @protocols.each do |protocol| %>
+    <% patient.protocols.each do |protocol| %>
       <tr>
         <td><%= protocol.weight %></td>
         <td><%= protocol.age %></td>
         <td><%= protocol.asa %></td>
         <td><%= protocol.bcs %></td>
         <td><%= protocol.alert %></td>
-        <td><%= protocol.patient %></td>
+        <!-- <td><%= protocol.patient %></td> -->
         <td><%= link_to 'Show', protocol %></td>
         <td><%= link_to 'Edit', edit_protocol_path(protocol) %></td>
         <td><%= link_to 'Destroy', protocol, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -31,6 +36,11 @@
     <% end %>
   </tbody>
 </table>
+<% else %>
+  <%= tag.h3 "No protocols specified" %>
+<% end %>
+<% end %>
+
 
 <br>
 

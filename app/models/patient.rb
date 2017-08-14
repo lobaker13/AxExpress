@@ -2,8 +2,9 @@ class Patient < ApplicationRecord
   belongs_to :breed
   belongs_to :user
   has_many :patient_procedures
-  has_many :procedures, through: :patient_procedure
-  has_one :risk, through: :patient_procedure
+  has_many :protocols
+  has_many :procedures, through: :patient_procedures
+  has_many :risks, through: :patient_procedures
 
   @@sexes = { mi: "Male, intact",
               mn: "Male, neutered",

@@ -47,8 +47,13 @@ class PatientProceduresController < ApplicationController
   # PATCH/PUT /patient_procedures/1
   # PATCH/PUT /patient_procedures/1.json
   def update
+    original_updated_at = @patient_procedure.updated_at
+    PatientProcedure.transaction do
+      @patient_procedure.update patient_procedure_params
+      @patient_procedure.risk.update patient_procedure_risk_params
+    end
     respond_to do |format|
-      if @patient_procedure.update(patient_procedure_params)
+      if original_updated_at != @patient_procedure.updated_at
         format.html { redirect_to @patient_procedure, notice: 'Patient procedure was successfully updated.' }
         format.json { render :show, status: :ok, location: @patient_procedure }
       else

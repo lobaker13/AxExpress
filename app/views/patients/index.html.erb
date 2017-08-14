@@ -1,7 +1,7 @@
+<div class="index_wrapper">
 <p id="notice"><%= notice %></p>
 
 <h1>My Patients</h1>
-
 <table>
   <thead>
     <tr>
@@ -16,7 +16,7 @@
       <th colspan="3"></th>
     </tr>
   </thead>
-
+<% if current_user %>
   <tbody>
     <% @patients.each do |patient| %>
       <tr>
@@ -32,6 +32,7 @@
         <td><%= link_to 'Edit', edit_patient_path(patient) %></td>
         <td><%= link_to 'Destroy', patient, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
+      <% end %>
     <% end %>
   </tbody>
 </table>
@@ -39,3 +40,4 @@
 <br>
 
 <%= link_to 'New Patient', new_patient_path %>
+</div>
