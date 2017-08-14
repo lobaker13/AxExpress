@@ -1,6 +1,6 @@
 class PatientProceduresController < ApplicationController
   before_action :set_patient_procedure, only: [:show, :edit, :update, :destroy]
-  before_action :set_risk
+  # before_action :set_risk
 
   # GET /patient_procedures
   # GET /patient_procedures.json
@@ -25,11 +25,16 @@ class PatientProceduresController < ApplicationController
   # POST /patient_procedures
   # POST /patient_procedures.json
   def create
-
+    @risk = Risk.new(patient_procedure_risk_params)
     @patient_procedure = PatientProcedure.new(patient_procedure_params)
-    @patient_procedure.risk_id = @risk.id
+    PatientProcedure.transaction do
+      @patient_procedure.save
+      @risk.patient_procedure_id = @patient_procedure.id
+      @risk.save
+    end
+    # @patient_procedure.risk_id = @risk.id
     respond_to do |format|
-      if @patient_procedure.save
+      if @patient_procedure.id
         format.html { redirect_to @patient_procedure, notice: 'Patient procedure was successfully created.' }
         format.json { render :show, status: :created, location: @patient_procedure }
       else
@@ -65,9 +70,9 @@ class PatientProceduresController < ApplicationController
 
   private
     # Use callbacks to share common setup or constraints between actions.
-    def set_risk
-      @risk = Risk.find(params[:risk_id])
-    end
+    # def set_risk
+    #   @risk = Risk.find(params[:risk_id])
+    # end
 
     def set_patient_procedure
       @patient_procedure = PatientProcedure.find(params[:id])
@@ -76,5 +81,10 @@ class PatientProceduresController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def patient_procedure_params
       params.require(:patient_procedure).permit(:procedure_id, :patient_id)
+    end
+ # Need to define to allow risks to be called through risk/patient_procedure input
+    def patient_procedure_risk_params
+      params.require(:patient_procedure).require(:risk).permit(:asa, :temperament, :bcs, :breed, :comorbidities, :age, :heart_murmur, :procedure, :history, :patient_procedure_id)
+
     end
 end

@@ -70,6 +70,7 @@ class RisksController < ApplicationController
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
+    
     def risk_params
       params.require(:risk).permit(:asa, :temperament, :bcs, :breed, :comorbidities, :age, :heart_murmur, :procedure, :history, :patient_procedure_id)
     end

@@ -18,7 +18,7 @@ class Drug < ApplicationRecord
  end
 
  # def method_name
- #
+ 
  # end
 
 # For future use to call both canine and feline in species specific dosing

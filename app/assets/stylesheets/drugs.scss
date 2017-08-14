@@ -1,12 +1,11 @@
 // Place all the styles related to the drugs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.drugs_show_wrapper{
-  margin: 10px;
-
-    p {
-      text-align: center;
-      padding: 5px;
+    .show_wrapper {
+        p{
+          text-align: center;
+          padding: 5px;
+      }
     }
 
     .adverse {
@@ -21,12 +20,19 @@
       font-size: 20px;
     }
 
-    .crud {
-      font-size: 20px;
-      text-align: center;
-    }
-
     ul{
       text-align: center;
     }
+
+h1#drugs{
+  text-align: center;
+}
+
+.drugs_index_wrapper{
+  margin: 20px;
+
+  .drug_search{
+    margin: auto;
+    width:22%;
+  }
 }

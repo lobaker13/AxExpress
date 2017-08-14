@@ -23,9 +23,9 @@ nav{
 
   // list-style-type: disc;
 }
-  li.home{
+  nav li{
     width:auto;
-    display: inline-block;
+    display: block;
     list-style: none;
 
   // display:list-item;
@@ -86,16 +86,18 @@ nav{
 
   .nav-label{
     display: block;
-    opacity: 0.8;
-    // visibility: hidden;
+    opacity: 0.0;
     transform: translateX(-10px);
-    display: block;
-    transition: all 0.2s;
-       :hover {
-      visibility: visible;
-    }
+    text-decoration: none;
+    font-family: "Indie Flower";
+    font-size: 25px;
+    color: white;
+    transition: all 0.8s ease;
 }
 
+.navbut:hover .nav-label {
+  opacity: 1;
+}
 
 
 
@@ -107,12 +109,42 @@ nav{
 }
 
   h1#slide-1-title {
-    color: red;
+    color: white;
     display: block;
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bold;
     margin-bottom: 1.5em;
+  }
+  h1#slide-2-title {
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+    width: 100%;
+  }
+  h1#slide-3-title {
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+    width: 100%;
+  }
+  h1#slide-4-title {
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+    width: 100%;
+  }
+  p.home{
+    color:white;
   }
 .slides {
   position: absolute;
@@ -154,11 +186,50 @@ nav{
   align-items: center;
 }
 
-.slide__text {
+.slide__text__1 {
   transform: translateZ(60px) scale(.8);
   transform-origin: 100% 50%;
   padding: 3%;
-  flex: 1;
+  font-family: "Spectral";
+  border: 5px solid rgb(217, 197, 166);
+  border-radius: 20%;
+  background: {
+      color:rgba(217, 197, 166, 0.75);
+  }
+}
+.slide__text__2 {
+  transform: translateZ(60px) scale(.8);
+  transform-origin: 100% 50%;
+  padding: 3%;
+  font-family: "Spectral";
+  border: 5px solid rgb(217, 197, 166);
+  border-radius: 20%;
+  background: {
+      color:rgba(217, 197, 166, 0.75);
+  }
+  width:50%;
+}
+.slide__text__3 {
+  transform: translateZ(60px) scale(.8);
+  transform-origin: 100% 50%;
+  padding: 3%;
+  font-family: "Spectral";
+  border: 5px solid rgb(217, 197, 166);
+  border-radius: 20%;
+  background: {
+      color:rgba(217, 197, 166, 0.75);
+  }
+}
+.slide__text__4 {
+  transform: translateZ(60px) scale(.8);
+  transform-origin: 100% 50%;
+  padding: 3%;
+  font-family: "Spectral";
+  border: 5px solid rgb(217, 197, 166);
+  border-radius: 20%;
+  background: {
+      color:rgba(217, 197, 166, 0.75);
+  }
 }
 
 .slide__image {
@@ -173,6 +244,7 @@ nav{
   margin: auto;
   width: 100%;
   display: block;
+  margin-bottom:-10%;
 }
 
 
@@ -204,13 +276,13 @@ nav{
 }
 
 .slide:nth-child(2n+1):not(:last-child) .slide__bg {
-    right: -17%;
+    right: -10%;
 }
 
 .slide:nth-child(2n+1):not(:first-child) .slide__bg {
-    left: -7%;
+    left: -17%;
 }
 
 .slide:nth-child(2n) .slide__bg {
-    transform: translateZ(59px) scale(.85);
+    transform: translateZ(59px) scale(.99);
 }

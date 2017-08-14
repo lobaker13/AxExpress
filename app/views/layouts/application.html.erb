@@ -4,15 +4,17 @@
     <title>AxExpress</title>
     <%= csrf_meta_tags %>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Spectral|Indie+Flower" rel="stylesheet">
   </head>
   <body>
     <%= yield %>
-    <article class="notice_alert">
-      <p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>
-    </article>
+    <% if user_signed_in? %>
+    <%= render '/layouts/footer' %>
+    <% end %>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
   </body>
 </html>

@@ -1,14 +1,56 @@
+<div class="show_wrapper">
 <p id="notice"><%= notice %></p>
 
+<% if @patient_procedure.risk.warnings.include? "procedure" %>
 <p>
   <strong>Procedure:</strong>
   <%= @patient_procedure.procedure.name %>
 </p>
-
+<% end %>
 <p>
   <strong>Patient:</strong>
   <%= @patient_procedure.patient.full_name %>
 </p>
 
+<% if @patient_procedure.risk.warnings.include? "ASA" %>
+<p>
+  <strong>ASA:</strong>
+  <%= @patient_procedure.risk.asa %>
+</p>
+<% end %>
+<p>
+  <% if @patient_procedure.risk.warnings.include? "temperament" %>
+  <strong>Temperament:</strong>
+  <%= @patient_procedure.risk.temperament %>
+  <% end %>
+</p>
+
+<p>
+  <strong>BCS:</strong>
+  <%= @patient_procedure.risk.bcs %>
+</p>
+
+<p>
+  <strong>Breed:</strong>
+  <%= @patient_procedure.risk.breed %>
+</p>
+
+<p>
+  <strong>Comorbidities:</strong>
+  <%= @patient_procedure.risk.comorbidities %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @patient_procedure.risk.age %>
+</p>
+
+<p>
+  <strong>Heart Murmur:</strong>
+  <%= @patient_procedure.risk.heart_murmur %>
+</p>
+<div class="crud">
 <%= link_to 'Edit', edit_patient_procedure_path(@patient_procedure) %> |
 <%= link_to 'Back', patient_procedures_path %>
+</div>
+</div>

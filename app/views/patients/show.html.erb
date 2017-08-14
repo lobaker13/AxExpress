@@ -1,3 +1,4 @@
+<div class="show_wrapper">
 <p id="notice"><%= notice %></p>
 
 <p>
@@ -46,7 +47,9 @@
   <%= patient_procedure.procedure.name %>,  (<%= time_tag(patient_procedure.created_at) %>)
   <% end %>
 </p>
-
-<%= link_to 'Edit', edit_patient_path(@patient) %> |
+<div class="crud">
+[ <%= link_to 'Edit', edit_patient_path(@patient) %> |
 <%= link_to 'Back', patients_path %> |
-<%= link_to 'New Procedure', new_patient_procedure_path(@patient)%>
+<%= link_to 'New Procedure', new_patient_procedure_path(@patient)%> ]
+</div>
+</div>

@@ -5,15 +5,15 @@ class Risk < ApplicationRecord
   # validates :heart_murmur, inclusion: 1..5
   def warnings
     risks = []
-    risks.push("ASA") if asa_risk >= 3
+    risks.push("ASA") if asa_risk.include? asa
     # Use of regex to isolate certain pharases
     risks.push("temperament") if temperament =~
      /aggressive|fractious|nervous|anxious|mean/
-    risks.push("BCS") if bcs_risk <=3 or bcs_risk >= 7
+    risks.push("BCS") if bcs <=3 or bcs >= 7
     risks.push(breed_risk) if breed_risk
     risks.push("age") if age <= 1 or age >= 1
     # add status to procedure table
-    risk.push("procedure") if self.patient_procedure.procedure.name.status == 1
+    risk.push("procedure") if self.patient_procedure.procedure.name == 1
     risk.push("comorbidities") if comorbidities =~ /Liver Disease|Renal Disease|Cardiac Disease|Diabetes/
     risks
   end
@@ -23,12 +23,12 @@ class Risk < ApplicationRecord
 # end
 
   def asa_risk
-    (1..5)
+    (3..5)
   end
 
-  def breed_risk
+  def self.breed_risk breed_name
   #when/when case for different risk breeds
-    case self.patient.breed.name
+    case breed_name
       # Brachycephalic
     when "Bulldog","French Bulldog","Pug","Boston Terrier","Pekingese","Boxer","Lhasa Apso","Shih Tzu","Cavalier King Charles Spaniel","Bullmastiff","","Persian"
 
