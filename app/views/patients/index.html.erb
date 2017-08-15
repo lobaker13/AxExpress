@@ -28,9 +28,11 @@
         <td><%= patient.breed.species %></td>
         <td><%= patient.breed.name %></td>
         <td><%= patient.user.dr_name%></td>
-        <td><%= link_to 'Show', patient %></td>
-        <td><%= link_to 'Edit', edit_patient_path(patient) %></td>
-        <td><%= link_to 'Destroy', patient, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <div class="crud">
+        <td>(<%= link_to 'Show', patient %>|</td>
+        <td><%= link_to 'Edit', edit_patient_path(patient) %>|</td>
+        <td><%= link_to 'Delete', patient, class: "destroy", method: :delete, data: { confirm: 'Are you sure?' } %>)</td>
+        </div>
       </tr>
       <% end %>
     <% end %>
@@ -39,5 +41,5 @@
 
 <br>
 
-<%= link_to 'New Patient', new_patient_path %>
+<%= link_to 'New Patient', new_patient_path, class: "new" %>
 </div>

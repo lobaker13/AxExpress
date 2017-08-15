@@ -7,16 +7,16 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <link href="https://fonts.googleapis.com/css?family=Spectral|Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Spectral|Indie+Flower|Sedgwick+Ave|Saira+Semi+Condensed" rel="stylesheet">
   </head>
   <body>
     <%= yield %>
     <% if user_signed_in? %>
     <%= render '/layouts/footer' %>
     <% end %>
-    <div id="alerts">
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
-    </div>
+    <!-- <div id="alerts">
+    <p class="notice"><notice %></p>
+    <p class="alert">< alert %></p>
+    </div> -->
   </body>
 </html>

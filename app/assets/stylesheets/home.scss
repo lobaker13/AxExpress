@@ -37,6 +37,38 @@ nav{
     width:10%;
     font-size: 1.5em;
     display:grid;
+    a.home_signin{
+      background: #3498db;
+      background-image: linear-gradient(to bottom, #3498db, #2980b9);
+      border-radius: 28px;
+      font-family: Arial;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 10px;
+      text-decoration: none;
+      text-align: center;
+    }
+    a.home_signup{
+      background: #3498db;
+      background-image: linear-gradient(to bottom, #3498db, #2980b9);
+      border-radius: 28px;
+      font-family: Arial;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 10px;
+      text-decoration: none;
+      text-align: center;
+    }
+    a.home_signin:hover{
+      background: #3cb0fd;
+      background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+      text-decoration: none;
+    }
+    a.home_signup:hover{
+      background: #3cb0fd;
+      background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+      text-decoration: none;
+    }
   }
 
   .nav-dot1{
@@ -115,6 +147,8 @@ nav{
     font-size: 3em;
     font-weight: bold;
     margin-bottom: 1.5em;
+    text-shadow: 2px 2px 2px black;
+
   }
   h1#slide-2-title {
     color: white;
@@ -124,6 +158,7 @@ nav{
     font-weight: bold;
     margin-bottom: 1.5em;
     width: 100%;
+    text-shadow: 2px 2px 2px black;
   }
   h1#slide-3-title {
     color: white;
@@ -133,6 +168,7 @@ nav{
     font-weight: bold;
     margin-bottom: 1.5em;
     width: 100%;
+    text-shadow: 2px 2px 2px black;
   }
   h1#slide-4-title {
     color: white;
@@ -142,10 +178,21 @@ nav{
     font-weight: bold;
     margin-bottom: 1.5em;
     width: 100%;
+    text-shadow: 2px 2px 2px black;
   }
   p.home{
     color:white;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px black;
   }
+  p.home1{
+    color:white;
+    font-size: 2.5em;
+    margin:auto;
+    width:80%;
+    text-shadow: 2px 2px 2px black;
+  }
+
 .slides {
   position: absolute;
   overflow-x: auto;
@@ -167,7 +214,16 @@ nav{
   margin-right: -.3em;
   padding: 8% 0;
 }
-
+h2#logo{
+  color: white;
+  position:absolute;
+  top:40px;
+  left:40px;
+  font-size: 4em;
+  font-family: "Sedgwick Ave";
+  text-decoration: underline;
+  text-shadow: 2px 2px black;
+}
 .slide__bg {
   position: absolute;
   top: 0;
@@ -187,14 +243,14 @@ nav{
 }
 
 .slide__text__1 {
-  transform: translateZ(60px) scale(.8);
-  transform-origin: 100% 50%;
-  padding: 3%;
+  transform: translateZ(60px) scale(.7);
+  transform-origin: 75% 55%;
+  padding: 1%;
   font-family: "Spectral";
-  border: 5px solid #d9c5a6;
+  border: 3px solid #d9c5a6;
   border-radius: 20%;
   background: {
-      color:rgba(217, 197, 166, 0.75);
+      color:rgba(217, 197, 166, 0.35);
   }
 }
 .slide__text__2 {
@@ -205,7 +261,7 @@ nav{
   border: 5px solid rgb(217, 197, 166);
   border-radius: 20%;
   background: {
-      color:rgba(217, 197, 166, 0.75);
+      color:rgba(217, 197, 166, 0.35);
   }
   width:50%;
 }
@@ -217,7 +273,7 @@ nav{
   border: 5px solid rgb(217, 197, 166);
   border-radius: 20%;
   background: {
-      color:rgba(217, 197, 166, 0.75);
+      color:rgba(217, 197, 166, 0.35);
   }
 }
 .slide__text__4 {
@@ -228,7 +284,7 @@ nav{
   border: 5px solid rgb(217, 197, 166);
   border-radius: 20%;
   background: {
-      color:rgba(217, 197, 166, 0.75);
+      color:rgba(217, 197, 166, 0.35);
   }
 }
 
@@ -268,6 +324,7 @@ nav{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 
 

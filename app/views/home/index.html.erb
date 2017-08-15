@@ -4,13 +4,13 @@
       <ul class="home">
         <li>
           <a href="#slide-1">
-            <div class="nav-dot1 navbut"><div class="nav-label">Slide 1</div></div>
+            <div class="nav-dot1 navbut"><div class="nav-label">Intro</div></div>
 
           </a>
         </li>
         <li>
           <a href="#slide-2">
-            <div class="nav-dot2 navbut"><div class="nav-label">Slide 2</div></div>
+            <div class="nav-dot2 navbut"><div class="nav-label">About</div></div>
           </a>
         </li>
         <li>
@@ -20,19 +20,20 @@
         </li>
         <li>
           <a href="#slide-4">
-            <div class="nav-dot4 navbut"><div class="nav-label">Slide 4</div></div>
+            <div class="nav-dot4 navbut"><div class="nav-label">Sign Up</div></div>
           </a>
         </li>
       </ul>
     </nav>
     <div class="slides">
       <div id="slide-1" class="slide">
+        <h2 id="logo">AxExpress</h2>
         <div class="slide__bg"></div>
         <div class="slide__content">
           <div class="slide__text__1">
-            <h1 id="slide-1-title" class"home">Patient Personalized Anesthesia</h1>
-            <p class="home">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <h1 id="slide-1-title" class"home">What: We Give</h1>
+            <p class="home1">AxExpress is an automated anesthetic protocol generator used for small animal veterinary medicine.
+
             </p>
           </div>
           <div class="slide__image">
@@ -44,7 +45,7 @@
         <div class="slide__bg"></div>
         <div class="slide__content">
           <div class="slide__text__2">
-            <h1 id="slide-2-title" class"home">A.C.V.A.A Standards</h1>
+            <h1 id="slide-2-title" class"home">How: We Make it Happen</h1>
             <p class="home">
           The American College of Veterinary Anesthesia and Analgesia (ACVAA) is an American Veterinary Medical Association recognized, not-for-profit veterinary medical organization founded in 1975 to serve society by: defining and promoting the highest standards of clinical practice of veterinary anesthesia and analgesia, defining criteria for designating veterinarians with advanced training as specialists in the clinical practice of veterinary anesthesiology, issuing certificates to those meeting these criteria, maintaining a list of such veterinarians, and advancing scientific research and education in veterinary anesthesiology and analgesia.
             </p>
@@ -58,9 +59,9 @@
         <div class="slide__bg"></div>
         <div class="slide__content">
           <div class="slide__text__3">
-            <h1 id="slide-3-title" class"home">Quality and Efficient care for your Patients</h1>
+            <h1 id="slide-3-title" class"home">Why: We do This</h1>
             <p class="home">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              The transition to higher quality anesthetic management requires a commitment to a new way of looking at our patients.It is not a matter of collecting a broader inventory of agents or adding monitoring equipment. First, and foremost, we must begin to look at each patient as a distinct individual. Is the patient young or old, calm or excitable, small or large, healthy or diseased. By thinking of our patients as individuals, we can adjust a given protocol to achieve the best possible balance of safety, comfort, and cost effectiveness.
             </p>
           </div>
           <div class="slide__image">
@@ -72,11 +73,12 @@
         <div class="slide__bg"></div>
         <div class="slide__content">
           <div class="slide__text__4">
-            <h1 id="slide-4-title" class"home">Oh Hi Last Title</h1>
+            <h1 id="slide-4-title" class"home">How: To Get Started</h1>
             <p class="home">
               <div id="sign_in">
-              <%= link_to 'Sign In', new_user_session_path %>
-              <%= link_to 'Sign Up', new_user_registration_path %>
+              <%= link_to 'Sign In', new_user_session_path, class: "home_signin" %>
+            </br>
+              <%= link_to 'Sign Up', new_user_registration_path, class: "home_signup" %>
             </div>
             </p>
           </div>

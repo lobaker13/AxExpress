@@ -981,7 +981,7 @@ Patient.create([
 		dob: Date.parse('2000/02/10'),
 		sex: :mn,
 		weight: 4.5,
-		breed_id: 199,
+		breed_id: 70,
 		user_id: 1
 	},
 	{
@@ -996,7 +996,7 @@ Patient.create([
 	{
 		fname: "Thackery",
 		lname: "Binx",
-		dob: Date.parse('2016/12/24'),
+		dob: Date.parse('2017/04/24'),
 		sex: :mi,
 		weight: 3.6,
 		breed_id: 108,

@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   resources :breeds
   get '/references' => 'home#references'
   get '/about' => 'home#about'
-  get '/dashboard' => 'home#dashboard', as: :user_root
+  get '/patients' => 'patient#index', as: :user_root
   root to: "home#index"
   devise_for :users, controllers: {
         registrations: 'users/registrations'

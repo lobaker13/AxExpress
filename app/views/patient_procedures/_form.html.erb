@@ -12,10 +12,11 @@
       <%= f.association :patient, label_method: :full_name, value_method: :id %>
     <% end %>
     <%= f.association :procedure %>
+  </br>
     <%= f.simple_fields_for ( @risk ) do |risk_builder| %>
-      <%= risk_builder.input :asa %>
+      <%= risk_builder.input :asa, label: "A.S.A." %>
       <%= risk_builder.input :temperament %>
-      <%= risk_builder.input :bcs %>
+      <%= risk_builder.input :bcs, label: "B.C.S." %>
       <% if @patient %>
         <%= risk_builder.input :breed, as: :hidden, input_html: {value: @patient.breed.name } %>
         <div class="breed_risk">
@@ -29,6 +30,7 @@
         <%= Risk.age_risk @patient.age %>
         </p>
         </div>
+      </br>
       <% else %>
         <%= risk_builder.input :breed %>
       <% end %>

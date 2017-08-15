@@ -1,7 +1,7 @@
 // Place all the styles related to the patients controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.patients_show_wrapper{
+.show_wrapper{
   background-color: #006c84;
   width: 50%;
   margin: auto;
@@ -9,4 +9,27 @@
   border-radius: 20px;
   vertical-align: top;
   color: #e2e8e4;
+  a{
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s;
+  }
+  a:hover{
+      color:#d9c5a6;
+      font-size: 20px;
+    }
+}
+.crud{
+  margin: auto;
+  width:29%;
+  a.patient_show_back {
+    text-decoration: none;
+    color:white;
+    transition: all 0.5s;
+  }
+  a.patient_show_back:hover {
+    font-size: 20px;
+  }
 }

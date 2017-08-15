@@ -32,10 +32,10 @@ class Risk < ApplicationRecord
 def self.age_risk age
   case
     when age < 1
-    "Too young!"
+    "PEDIATRIC: Pediatric patients have minimal glycogen stores in the liver and should be minimally fasted. "
 
     when age > 10
-    "Old man rivers over here"
+    "GERIATRIC: Anesthetic morbidity is increased because of a decline in organ function or reserve - the so-called 'elderly normal' patient. Under routine non-stressful conditions, the physiological changes that occur in body composition, the brain, kidney, liver, heart and lungs produce no or only minimal functional impairment. However, with acute disease or surgery, and hence stress, the diminished reserve capacity of elderly patients impairs their response to increased demand"
   end
 end
 
@@ -53,20 +53,20 @@ end
     when
       "Collie","Australian Shepherd","Shetland Sheepdog"
 
-        "Often have a genetic mutation in the ABCB1 (formerly MDR1) gene that allows certain drugs to accumulate in the brain – including some anesthesia agents. Without proper dosing and monitoring, these breeds can be over-sedated and experience respiratory depression."
+        "HERDING BREED: Often have a genetic mutation in the ABCB1 (formerly MDR1) gene that allows certain drugs to accumulate in the brain – including some anesthesia agents. Without proper dosing and monitoring, these breeds can be over-sedated and experience respiratory depression."
 
       # Toy Breeds
     when
       "Affenpinscher","Brussels Griffon","Cavalier King Charles Spaniel","Chihuahua","Chinese Crested","English Toy Spaniel","Havanese","Italian Greyhound","Japanese Chin","Maltese","Manchester Terrier","Miniature Pinscher","Papillon","Pekingese","Pomeranian","Pug","Shih Tzu","Silky Terrier","Toy Fox Terrier","Yorkshire Terrier"
 
-        "Toy dogs must be carefully weighed and the appropriate dose of anesthetic given based on their small size. Monitoring during the procedure is crucial (as it is for all patients, but in particular the tiny ones), including accurate blood pressure measurement.
+        "TOY BREED: Toy dogs must be carefully weighed and the appropriate dose of anesthetic given based on their small size. Monitoring during the procedure is crucial (as it is for all patients, but in particular the tiny ones), including accurate blood pressure measurement.
 
         Small dogs tend to have low body temps and hypoglycemia (low blood sugar), so it’s also important they be kept warm while anesthetized and their blood glucose levels monitored."
       # Giant Breeds
     when
       "Great Dane","Mastiff","Newfoundland","Saint Bernard","Great Pyrenees","Irish Wolfhound","Giant Schnauzer","Leonberger","Neapolitan Mastiff","Greyhound","Scottish Deerhound","Kuvasz"
 
-        "May over-respond to normal therapeutic doses of sedatives. It’s important that these dogs are dosed according to lean body mass or surface area rather than actual body weight."
+        "GIANT BREED: May over-respond to normal therapeutic doses of sedatives. It’s important that these dogs are dosed according to lean body mass or surface area rather than actual body weight."
     when
       "Doberman Pinscher"
 

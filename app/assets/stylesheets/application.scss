@@ -27,10 +27,14 @@ h2 {
   color: #d9c5a6;
 }
 
+h1.forms{
+  color:white;
+}
+
 .simple_form {
   width: 500px;
-  padding: 30px;
-  margin: 40px auto;
+  padding: 20px;
+  margin: 20px auto;
   background: #FFF;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
@@ -40,9 +44,15 @@ h2 {
     text-align: center;
   }
 
-  div.input {
-    margin-bottom: 10px;
+  .form-inputs {
+    margin-bottom: 5px;
     clear: both;
+    border-radius: 2px solid black;
+    display:grid;
+    margin: auto;
+    width: 90%;
+
+
     /* Required for Webkit, but not for Gecko */
   }
 
@@ -54,7 +64,7 @@ h2 {
     margin: 2px 10px;
   }
   label.select.required{
-    color:red;
+    font-weight: bold;
   }
 }
 
@@ -70,7 +80,11 @@ div.boolean label {
 
 .sign_in {
   margin: auto;
-  width: 50%;
+  width: 9%;
+    a{
+      text-decoration: none;
+      color:white;
+    }
 }
 
 label.collection_radio_buttons {
@@ -145,12 +159,26 @@ label.collection_check_boxes {
   th {
     padding: 10px;
   }
-}
-// edit/back buttons
-
-.crud {
-  font-size: 20px;
+  a {
+  font-size: 15px;
   text-align: center;
   color: white;
   text-decoration: none;
+  transition: all 0.5s;
+  }
+  a:hover{
+      color:#d9c5a6;
+      font-size: 20px;
+    }
+  a.destroy{
+    color:white;
+  }
+  a.destroy:hover{
+    color:red;
+    font-size: 20px;
+  }
+  a.new{
+    float: right;
+  }
 }
+// edit/back buttons
