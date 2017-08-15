@@ -1,4 +1,10 @@
+<div class="show_wrapper">
 <p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Patient:</strong>
+  <%= @protocol.patient.full_name %>
+</p>
 
 <p>
   <strong>Weight:</strong>
@@ -15,20 +21,24 @@
   <%= @protocol.asa %>
 </p>
 
+<% @protocol.drugs.each do |drug| %>
+<p>
+  <%= link_to "About this drug", drug_path(drug) %>
+<%= drug.name %> <%= @protocol.patient.dosing(drug) %>mg / <%= @protocol.patient.volume(drug) %>ml [<%= drug.route_of_admin_expand %> ]
+</p>
+<% end %>
+
+<p>
+  <strong>Dosing:</strong>
+</p>
+
 <p>
   <strong>BCS:</strong>
   <%= @protocol.bcs %>
 </p>
 
-<p>
-  <strong>Alert:</strong>
-  <%= @protocol.alert %>
-</p>
-
-<p>
-  <strong>Patient:</strong>
-  <%= @protocol.patient.full_name %>
-</p>
-
+<div class="crud">
 <%= link_to 'Edit', edit_protocol_path(@protocol) %> |
 <%= link_to 'Back', protocols_path %>
+</div>
+</div>

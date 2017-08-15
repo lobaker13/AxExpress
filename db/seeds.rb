@@ -4929,14 +4929,14 @@ ClinicalDose.create([
 		max: 0.2,
 		min: 0.1,
 		# Hydromorphone
-		drug_id: 6,
+		drug_id: 7,
 		species_id: 0
 	},
 	{
 		max: 0.1,
 		min: 0.05,
 		# Hydromorphone
-		drug_id: 6,
+		drug_id: 7,
 		species_id: 1
 	},
 	{

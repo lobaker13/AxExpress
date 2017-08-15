@@ -16,6 +16,15 @@ class Patient < ApplicationRecord
     "#{fname} #{lname}".strip
   end
 
+  def age
+    ((Date.today - self.dob) / 365)
+  end
+
+  def age_expand
+    calc = age
+    calc > 1 ? calc.to_i : '%.1f' % calc
+  end
+
   def self.sexes_hash
     @@sexes
   end
@@ -29,6 +38,7 @@ class Patient < ApplicationRecord
 
   def dosing(drug, units = false)
     clinical_dose = self.breed.clinical_dose(drug.id)
+    p "Dosing: #{clinical_dose.inspect}"
     return nil unless clinical_dose
     calc = clinical_dose.average * self.weight
     units ? "#{calc} mg/kg" : calc

@@ -2,7 +2,10 @@ class Risk < ApplicationRecord
   belongs_to :patient_procedure
   validates :bcs, inclusion: 1..9
   validates :asa, inclusion: 1..5
-  # validates :heart_murmur, inclusion: 1..5
+  validates :heart_murmur, inclusion: 1..5, allow_nil:true
+  before_create do |risk|
+    risk.age = (Date.today - patient_procedure.patient.dob) / 365
+  end
   def warnings
     risks = []
     risks.push("ASA") if asa_risk.include? asa
@@ -11,7 +14,7 @@ class Risk < ApplicationRecord
      /aggressive|fractious|nervous|anxious|mean/
     risks.push("BCS") if bcs <=3 or bcs >= 7
     risks.push(breed_risk) if breed_risk
-    risks.push("age") if age <= 1 or age >= 1
+    risks.push(age_risk) if age <= 1 or age >= 1
     # add status to procedure table
     risks.push("procedure") if self.patient_procedure.procedure.name == 1
     risks.push("comorbidities") if comorbidities =~ /Liver Disease|Renal Disease|Cardiac Disease|Diabetes/
@@ -21,10 +24,20 @@ class Risk < ApplicationRecord
 # helper to flag more alerts
 # def method_name
 # end
-
   def asa_risk
     (3..5)
   end
+
+
+def self.age_risk age
+  case
+    when age < 1
+    "Too young!"
+
+    when age > 10
+    "Old man rivers over here"
+  end
+end
 
   def self.breed_risk breed_name
   #when/when case for different risk breeds
@@ -70,5 +83,8 @@ class Risk < ApplicationRecord
 # To call on the class method defined above
   def breed_risk
     Risk.breed_risk self.patient_procedure.patient.breed.name
+  end
+  def age_risk
+    Risk.age_risk self.patient_procedure.patient.age
   end
 end

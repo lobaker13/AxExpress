@@ -112,7 +112,7 @@ ActiveRecord::Schema.define(version: 20170810183050) do
     t.string "breed"
     t.string "comorbidities"
     t.integer "age"
-    t.integer "heart_murmur", null: false
+    t.integer "heart_murmur"
     t.string "procedure"
     t.boolean "history"
     t.integer "patient_procedure_id"

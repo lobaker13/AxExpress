@@ -135,6 +135,11 @@ rails g scaffold clinical_dose min:integer max:integer drug:belongs_to
 mg = "milligrams"
 kg = "kilograms"
 ml = "milliliters"
+Q = hepatic blood flow
+f = fraction of free drug (not bound)
+Cl_int = intrinsic capacity of the hepatocytes to metabolize a drug
+
+Hepatic Clearance: Cl(h) = Q [(f x Cl_int)/(Q+ f x Cl_int)]
 
 "concentration" (mg/ml) [CONSTANT] - drug amount (mg) per 1 ml of suspension
 

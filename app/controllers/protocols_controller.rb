@@ -42,15 +42,14 @@ class ProtocolsController < ApplicationController
       @protocol_drug = ProtocolDrug.new(protocol_id: @protocol.id)
       case @procedure.name
       when "Tibial plateau leveling osteotomy"
-        drug = Drug.find(1)
-        drug2 = Drug.find(7)
-        @protocol_drug.drug_id = drug.id
-        @protocol_drug.dose = @protocol.patient.dosing(drug)
+        @protocol.add_drug(1)
+        @protocol.add_drug(7)
+      # another procedure
+    # when ""
       end
 
-      @protocol_drug.save!
 
-    end #transaction
+  end #transaction
     # nullable_params.each do |param|
     #   unless protocol_params[:protocol][param]
     #     case param

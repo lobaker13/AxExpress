@@ -14,7 +14,9 @@
     <% if user_signed_in? %>
     <%= render '/layouts/footer' %>
     <% end %>
+    <div id="alerts">
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
+    </div>
   </body>
 </html>

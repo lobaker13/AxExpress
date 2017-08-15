@@ -1,6 +1,7 @@
 <%= simple_form_for(@patient_procedure) do |f| %>
     <%
     @patient = Patient.find(params[:patient_id]) if params[:patient_id]
+    @risk = (@patient_procedure && @patient_procedure.risk) || Risk.new
     %>
   <%= f.error_notification %>
 
@@ -11,20 +12,28 @@
       <%= f.association :patient, label_method: :full_name, value_method: :id %>
     <% end %>
     <%= f.association :procedure %>
-    <%= f.simple_fields_for ((@patient_procedure && @patient_procedure.risk) || Risk.new ) do |risk_builder| %>
+    <%= f.simple_fields_for ( @risk ) do |risk_builder| %>
       <%= risk_builder.input :asa %>
       <%= risk_builder.input :temperament %>
       <%= risk_builder.input :bcs %>
       <% if @patient %>
         <%= risk_builder.input :breed, as: :hidden, input_html: {value: @patient.breed.name } %>
         <div class="breed_risk">
+        <p>
         <%= Risk.breed_risk @patient.breed.name %>
+        </p>
+        </div>
+      </br>
+        <div class="age_risk">
+        <p>
+        <%= Risk.age_risk @patient.age %>
+        </p>
         </div>
       <% else %>
         <%= risk_builder.input :breed %>
       <% end %>
       <%= risk_builder.input :comorbidities %>
-      <%= risk_builder.input :age %>
+      <!-- <%# risk_builder.input :age, as: :hidden %> -->
       <%= risk_builder.input :heart_murmur %>
       <!-- < f.input :procedure %> -->
       <!-- < f.input :history %> -->
