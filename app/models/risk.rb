@@ -35,7 +35,7 @@ def self.age_risk age
     "PEDIATRIC: Pediatric patients have minimal glycogen stores in the liver and should be minimally fasted. "
 
     when age > 10
-    "GERIATRIC: Anesthetic morbidity is increased because of a decline in organ function or reserve - the so-called 'elderly normal' patient. Under routine non-stressful conditions, the physiological changes that occur in body composition, the brain, kidney, liver, heart and lungs produce no or only minimal functional impairment. However, with acute disease or surgery, and hence stress, the diminished reserve capacity of elderly patients impairs their response to increased demand"
+    "GERIATRIC: Anesthetic morbidity is increased because of a decline in organ function or reserve. Under routine non-stressful conditions, the physiological changes that occur in body composition, the brain, kidney, liver, heart and lungs produce no or only minimal functional impairment. However, with acute disease or surgery, and hence stress, the diminished reserve capacity of elderly patients impairs their response to increased demand"
   end
 end
 

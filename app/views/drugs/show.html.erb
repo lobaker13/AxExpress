@@ -37,7 +37,7 @@
     <ul class="drug">
       <!-- Loop to pull availiable helpers from clinical_dose to drugs, since drug "has_many" clinical doses -->
     <% @drug.clinical_doses.each do |clinical_dose| %>
-      <li><%= clinical_dose.range %> mg/ml (<%= clinical_dose.species_output %>)</li>
+      <li><%= clinical_dose.range %> (<%= clinical_dose.species_output %>)</li>
     <% end  %>
   </ul>
   </p>

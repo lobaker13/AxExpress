@@ -44,9 +44,15 @@ class ProtocolsController < ApplicationController
       when "Tibial plateau leveling osteotomy"
         @protocol.add_drug(1)
         @protocol.add_drug(7)
-      # another procedure
-    # when ""
-      end
+      when "Adrenalectomy"
+        @protocol.add_drug(2)
+        @protocol.add_drug(3)
+      when "Penile amputation"
+        @protocol.add_drug(7)
+        @protocol.add_drug(5)
+        @protocol.add_drug(2)
+
+    end
 
 
   end #transaction

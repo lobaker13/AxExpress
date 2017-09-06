@@ -980,7 +980,7 @@ Patient.create([
 		lname: "Smith",
 		dob: Date.parse('2000/02/10'),
 		sex: :mn,
-		weight: 4.5,
+		weight: 40,
 		breed_id: 70,
 		user_id: 1
 	},

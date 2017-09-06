@@ -1,4 +1,7 @@
-#AxExpress is a program that generates a patient-safe anesthetic protocols for small animal veterinary medicine. By incorporating certain variables declared as "risks" in this program, a patients drug protocol may be adjusted appropriately based on whether a patient has an anesthetic risk or not.
+# AxExpress is a program that generates a patient-safe anesthetic protocols for small animal veterinary medicine. By incorporating certain variables declared as "risks" in this program, a patients drug protocol may be adjusted appropriately based on whether a patient has an anesthetic risk or not.
+
+## Inspiration for this app came from my background in the field of Veterinary Medicine. I noticed that certain procedures that the patient (dog/cat) was undergoing, has the tendency to be treated with a cookie-cutter anesthetic protocol. I believed that each patient and procedure should be examined individually and then an anesthetic protocol should be administered depending on those results. This is my solution to help improve patient safety and clinic/hospital efficiency.
+
 
 Rails 5.1.2
 ---Let's get started!---
@@ -137,6 +140,7 @@ kg = "kilograms"
 ml = "milliliters"
 Q = hepatic blood flow
 f = fraction of free drug (not bound)
+
 Cl_int = intrinsic capacity of the hepatocytes to metabolize a drug
 
 Hepatic Clearance: Cl(h) = Q [(f x Cl_int)/(Q+ f x Cl_int)]
@@ -159,3 +163,8 @@ Ex: In rails c
 Patient.first.dosing(Drug.find_by_id(1), true)
 ```
 Will output: "1.53225 mg/kg" through the dosing helper in the Patient model
+
+----------------------------------------------------------------------------------------------------------------------------------
+                                              Regex for data collection
+----------------------------------------------------------------------------------------------------------------------------------
+Regex was used for collection of part of my database for the names of all the drugs available in the veterinary field, as well as all feline and canine breeds.

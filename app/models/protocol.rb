@@ -12,7 +12,8 @@ class Protocol < ApplicationRecord
       drug_id: drug_id,
       dose: self.patient.dosing(drug)
     )
-
 end
-
+  # def add_roa( route_of_admin )
+  #
+  # end
 end
