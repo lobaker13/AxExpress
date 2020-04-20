@@ -1,4 +1,6 @@
-# AxExpress is a program that generates a patient-safe anesthetic protocols for small animal veterinary medicine. By incorporating certain variables declared as "risks" in this program, a patients drug protocol may be adjusted appropriately based on whether a patient has an anesthetic risk or not.
+# AxExpress 
+
+## AxExpress generates a patient-safe anesthetic protocols for small animal veterinary medicine. By incorporating certain variables declared as "risks" in this program, a patients drug protocol may be adjusted appropriately based on whether a patient has an anesthetic risk or not.
 
 ## Inspiration for this app came from my background in the field of Veterinary Medicine. I noticed that certain procedures that the patient (dog/cat) was undergoing, has the tendency to be treated with a cookie-cutter anesthetic protocol. I believed that each patient and procedure should be examined individually and then an anesthetic protocol should be administered depending on those results. This is my solution to help improve patient safety and clinic/hospital efficiency.
 
